@@ -1,24 +1,51 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './components/About';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Timeline from './components/Timeline';
+import { FaBars } from 'react-icons/fa';
 
 function App() {
+
+ 
+// const navbarlinks = document.getElementsByClassName('navlinks')[0]
+// const btndiv = document.getElementsByClassName('btndiv')[0]
+
+// function greetUser() {
+//   console.log(navbarlinks.classList.toggle('active'))
+//   console.log(btndiv.classList.toggle('active'))
+// }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <header className="header">
+            <nav className="navbar">
+                <div className="loto">
+                    <a className="logo" href="/">NB</a>
+                    <span className="togglebtn"><FaBars/></span>
+                </div>
+                    <ul className="navlinks">
+                        <li className="navitems"><a className="item-links" href="#about">About</a></li>
+                        <li className="navitems"><a className="item-links" href="#skills">Skills</a></li>
+                        <li className="navitems"><a className="item-links" href="#timeline">Timeline</a></li>
+                        <li className="navitems"><a className="item-links" href="#projects">Projects</a></li>
+                    </ul>
+                    <div className="btndiv">
+                        <button className="button">Lets talk</button>
+                    </div>
+                    
+            </nav>
+        </header>
+      <div className="main-view">
+        <Home />
+        <About />
+        <Skills/>
+        <Timeline/>
+        <Projects/>
+      </div>
+
+    </>
   );
 }
 
