@@ -5,6 +5,8 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Timeline from './components/Timeline';
 import { FaBars } from 'react-icons/fa';
+import { ImCross } from 'react-icons/im';
+import { useEffect, useState } from 'react';
 
 function App() {
 
@@ -17,24 +19,33 @@ function App() {
 //   console.log(btndiv.classList.toggle('active'))
 // }
 
+const [showMenu, setShowMenu] = useState(false);
+useEffect(() => {
+  document.title = "Hello!!"
+}, [])
   return (
     <>
       <header className="header">
             <nav className="navbar">
                 <div className="loto">
                     <a className="logo" href="/">NB</a>
-                    <span className="togglebtn"><FaBars/></span>
-                </div>
-                    <ul className="navlinks">
-                        <li className="navitems"><a className="item-links" href="#about">About</a></li>
-                        <li className="navitems"><a className="item-links" href="#skills">Skills</a></li>
-                        <li className="navitems"><a className="item-links" href="#timeline">Timeline</a></li>
-                        <li className="navitems"><a className="item-links" href="#projects">Projects</a></li>
-                    </ul>
-                    <div className="btndiv">
-                        <button className="button">Lets talk</button>
-                    </div>
+                    {showMenu?
+                      <span className="togglebtn" onClick={()=> setShowMenu(!showMenu)}><ImCross/></span>
+                      :<span className="togglebtn" onClick={()=> setShowMenu(!showMenu)}><FaBars/></span>}
                     
+                </div>
+                
+               
+                <ul className={`${showMenu?'navlinks active':'navlinks'}`}>
+                    <li className="navitems"><a className="item-links" href="#about">About</a></li>
+                    <li className="navitems"><a className="item-links" href="#skills">Skills</a></li>
+                    <li className="navitems"><a className="item-links" href="#timeline">Timeline</a></li>
+                    <li className="navitems"><a className="item-links" href="#projects">Projects</a></li>
+                </ul>
+                <div className={`${showMenu?'btndiv activeb':'btndiv'}`}>
+                      <button className="button">Lets talk</button>
+                </div>
+                     
             </nav>
         </header>
       <div className="main-view">
