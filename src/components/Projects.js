@@ -22,7 +22,7 @@ const Projects= () => {
                         className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
                         onClick={() => toggleTab(2)}
                     >
-                    Illustrations
+                    Illustrations and Designs
                     </button>
                 </div>
 
@@ -90,6 +90,15 @@ const Projects= () => {
                     <p className="skilltitle">
                         I have been learning to make illustrations.
                     </p>
+                    <div className="illustrations">
+                        <div className="icard">
+                            <img src=""/>
+                            <p className="iname">Illustration name</p>
+                            <p className="ires">software</p>
+                        </div>
+
+                    </div>
+
                     
 
                 </div>

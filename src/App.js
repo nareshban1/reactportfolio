@@ -6,7 +6,7 @@ import Skills from './components/Skills';
 import Timeline from './components/Timeline';
 import { FaBars } from 'react-icons/fa';
 import { ImCross } from 'react-icons/im';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function App() {
 
@@ -20,9 +20,6 @@ function App() {
 // }
 
 const [showMenu, setShowMenu] = useState(false);
-useEffect(() => {
-  document.title = "Hello!!"
-}, [])
   return (
     <>
       <header className="header">

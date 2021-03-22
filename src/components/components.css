@@ -350,7 +350,7 @@
 }
 
 
-.applist{
+.applist , .illustrations{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -411,6 +411,17 @@
     background-color: var(--other-1);
     border-radius: 50px;
 }
+
+.icard{
+    width:500px;
+    height: min-content;
+    background-color: red;
+}
+
+.icard img{
+    
+}
+
 
 @media(max-width: 1200px) {
     #main-image{
