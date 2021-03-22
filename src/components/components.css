@@ -423,6 +423,9 @@
     margin: 10px;
     transition: var(--transition);
 }
+.iname{
+    padding: 5px 0px;
+}
 
 .icard img{
     height:90%;
