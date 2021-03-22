@@ -425,9 +425,9 @@
 }
 
 .icard img{
-    height:100%;
+    height:90%;
     width: 100%;
-    margin-bottom: 5px;
+    
 }
 
 
@@ -442,16 +442,6 @@
 .royal img{
     height:400px;
 }
-
-@media(max-width: 955px) {
-    .icard{
-        width:100%;
-    }
-}
-
-
-
-
 
 
 @media(max-width: 1070px) {
