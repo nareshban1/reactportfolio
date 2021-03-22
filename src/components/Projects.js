@@ -91,13 +91,33 @@ const Projects= () => {
                         I have been learning to make illustrations.
                     </p>
                     <div className="illustrations">
-                        <div className="icard">
-                            <img src=""/>
-                            <p className="iname">Illustration name</p>
-                            <p className="ires">software</p>
-                        </div>
 
+                        <div className="icard">
+                            <img src={process.env.PUBLIC_URL + '/astronaut1.png'}/>
+                            <p className="iname">Astronaut</p>
+                        </div>
+                        <div className="icard">
+                            <img src={process.env.PUBLIC_URL + '/earth.png'}/>
+                            <p className="iname">Earth</p>
+                        </div>
+                        <div className="icard">
+                            <img src={process.env.PUBLIC_URL + '/fire.png'}/>
+                            <p className="iname">Astroid</p>
+                        </div>
+                        <div className="icard">
+                            <img src={process.env.PUBLIC_URL + '/harry potter.png'}/>
+                            <p className="iname">Harry Potter</p>
+                        </div>
+                        <div className="icard">
+                            <img src={process.env.PUBLIC_URL + '/racecar.png'}/>
+                            <p className="iname">Race Car</p>
+                        </div>
+                        <div className="icard royal" >
+                            <img src={process.env.PUBLIC_URL + '/royallogo.svg'}/>
+                            <p className="iname">The Royal Boutique Logo</p>
+                        </div>
                     </div>
+
 
                     
 
