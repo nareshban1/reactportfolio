@@ -102,7 +102,7 @@ const Projects= () => {
                         </div>
                         <div className="icard">
                             <img src={process.env.PUBLIC_URL + '/fire.png'}/>
-                            <p className="iname">Astroid</p>
+                            <p className="iname">Asteroid</p>
                         </div>
                         <div className="icard">
                             <img src={process.env.PUBLIC_URL + '/harry potter.png'}/>
