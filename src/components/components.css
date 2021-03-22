@@ -443,18 +443,21 @@
     height:400px;
 }
 
-
-
-
-@media(max-width: 1200px) {
-    #main-image{
-        margin-top: 20px;
-        height: 100%;
-        width: 100%;
+@media(max-width: 955px) {
+    .icard{
+        width:100%;
     }
 }
 
+
+
+
+
+
 @media(max-width: 1070px) {
+    .icard{
+        width:100%;
+    }
     .intro{
         flex-wrap: wrap;
         padding: 0 5%;
