@@ -3,6 +3,7 @@
     --secondary:  #141C3A;
     --button-1:#6937FF;
     --other-1:#DD4B25;
+    --transition: all 0.3s linear;
   }
   @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
   
@@ -213,7 +214,7 @@
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid #FF9F55;
+    border: 5px solid var(--primary);
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -292,6 +293,123 @@
     font: normal 16px jost;
     color: #141C3A;
     
+}
+
+
+
+/* Projects section*/
+.bloc-tabs {
+    display: flex;
+    
+  }
+ 
+.tabs {
+    font: normal normal bold 20px jost;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    box-sizing: content-box;
+    outline: none;
+}
+.tabs{
+    border: none
+}
+  
+.active-tabs  {
+    background: white;
+    border-bottom: 1px solid var(--button-1);
+}
+  
+.active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: var(--other-1);
+}  
+
+.content-tabs {
+    flex-grow : 1;
+}
+
+.pcontent {
+    background: white;
+    padding: 20px 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.active-content {
+    display: block;
+}
+
+
+.applist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.appcard{
+    width:300px;
+    background-color: white;
+    box-shadow: -1px 1px 21px -5px rgba(0,0,0,0.64);
+    border-radius: 6px;
+    margin: 10px;
+    transition: var(--transition);
+}
+
+.appcard:hover{
+   transform: scale(1.05);
+}
+.appcard img{
+    height:170px;
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.appcontent{
+    padding: 10px;
+}
+
+.apptitle{
+    font: normal normal bold 24px saira;
+    color: var(--secondary);
+
+}
+.appdesc{
+    font: normal normal 18px jost;
+    color: var(--secondary);
+}   
+.appres{
+    font: normal normal 16px jost;
+    color: var(--secondary);
+    align-items: baseline;
+    display: flex;
+    
+}
+
+.appres ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+
+.appres ul li{
+    color: white;
+    margin:2px;
+    list-style: none;
+    padding: 3px 10px;
+    background-color: var(--other-1);
+    border-radius: 50px;
 }
 
 @media(max-width: 1200px) {
@@ -397,4 +515,9 @@
         font: normal normal  14px Saira;
         color: #141C3A;
     }
+
+    .appcard{
+        width:100%;
+    }
+    
   }

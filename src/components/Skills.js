@@ -9,6 +9,7 @@ const Skills= () => {
             <p className="skilltitle">
                 Here are some of the skillset I have acquired.
             </p>
+
             <div className="skilllist">
                 <div className="skillcard">
                     <span className="cardlogo html"><FaHtml5/></span>
