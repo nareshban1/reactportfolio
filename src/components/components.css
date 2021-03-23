@@ -412,23 +412,6 @@
     border-radius: 50px;
 }
 
-.icard{
-    width:47%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    box-shadow: -1px 1px 21px -5px rgba(0,0,0,0.64);
-    border-radius: 6px;
-    margin: 10px;
-    transition: var(--transition);
-}
-
-
-
-.icard:hover{
-   transform: scale(1.05);
-}
 
 
 
@@ -454,6 +437,7 @@
     vertical-align: middle;
     width: 100%;
     transition: var(--transition);
+    cursor: pointer;
   }
   
   .column img:hover {
@@ -576,4 +560,34 @@
         max-width: 100%;
       }
 
+  }
+
+  @media(max-width: 400px) {
+    .appcard{
+        width:100%;
+    }
+
+    .appcard img{
+        height:130px;
+        width: 100%;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    .apptitle{
+        font: normal bold 22px saira;  
+    }
+
+    .appdesc{
+        font: normal 16px jost;  
+    }
+
+    .appres ul{
+        font: normal 14px jost; 
+        margin-top: 10px;
+        
+    }
+    
+    .appres ul li{
+        padding: 3px 6px;
+    }
   }
