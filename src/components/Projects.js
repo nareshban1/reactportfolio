@@ -103,7 +103,7 @@ const Projects= () => {
                         </div>
                         <div className="column">
                             <ModalImage small={process.env.PUBLIC_URL + '/fire.png'} large={process.env.PUBLIC_URL + '/fire.png'} alt="Asteroid"/>
-                            <ModalImage small={process.env.PUBLIC_URL + '/harry potter.png'} large={process.env.PUBLIC_URL + '/harry potter.png'} alt="harry Potter"/>
+                            <ModalImage small={process.env.PUBLIC_URL + '/harry potter.png'} large={process.env.PUBLIC_URL + '/harry potter.png'} alt="Harry Potter"/>
                             <ModalImage small={process.env.PUBLIC_URL + '/batman.png'} large={process.env.PUBLIC_URL + '/batman.png'} alt="Batman Logo"/>
                             <ModalImage small={process.env.PUBLIC_URL + '/royallogo.svg'} large={process.env.PUBLIC_URL + '/royallogo.svg'} alt="The Royal Boutique Logo"/>
                         </div>
