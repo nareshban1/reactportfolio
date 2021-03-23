@@ -90,37 +90,20 @@ const Projects= () => {
                     <p className="skilltitle">
                         I have been learning to make illustrations.
                     </p>
-                    <div className="illustrations">
-
-                        <div className="icard">
+                    <div className="row">
+                        <div className="column">
                             <img src={process.env.PUBLIC_URL + '/astronaut1.png'}/>
-                            <p className="iname">Astronaut</p>
-                        </div>
-                        <div className="icard">
                             <img src={process.env.PUBLIC_URL + '/EARTH.png'}/>
-                            <p className="iname">Earth</p>
-                        </div>
-                        <div className="icard">
-                            <img src={process.env.PUBLIC_URL + '/fire.png'}/>
-                            <p className="iname">Asteroid</p>
-                        </div>
-                        <div className="icard">
-                            <img src={process.env.PUBLIC_URL + '/harry potter.png'}/>
-                            <p className="iname">Harry Potter</p>
-                        </div>
-                        <div className="icard">
                             <img src={process.env.PUBLIC_URL + '/racecar.png'}/>
-                            <p className="iname">Race Car</p>
+                            <img src={process.env.PUBLIC_URL + '/7star.svg'}/>
                         </div>
-                        <div className="icard royal" >
+                        <div className="column">
+                            <img src={process.env.PUBLIC_URL + '/fire.png'}/>
+                            <img src={process.env.PUBLIC_URL + '/harry potter.png'}/>
+                            <img src={process.env.PUBLIC_URL + '/batman.png'}/>
                             <img src={process.env.PUBLIC_URL + '/royallogo.svg'}/>
-                            <p className="iname">The Royal Boutique Logo</p>
                         </div>
                     </div>
-
-
-                    
-
                 </div>
             </div>
         </div>
