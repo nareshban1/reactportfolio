@@ -412,6 +412,13 @@
     border-radius: 50px;
 }
 
+.grptitle{
+    font: normal normal bold 20px jost;
+    padding: 10px;
+    margin-top: 10px;
+    color: var(--secondary);
+}
+
 
 
 
@@ -443,6 +450,8 @@
   .column img:hover {
     transform: scale(1.04);
   }
+
+
 
 
 @media(max-width: 1070px) {
