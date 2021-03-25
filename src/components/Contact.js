@@ -17,10 +17,7 @@ const Contact= () => {
           setEmail(""),
           setUsername(""),
           setMessage(""),
-        );
-
-
-              
+        );     
       }
 
     return(
@@ -39,10 +36,7 @@ const Contact= () => {
                         Address:
                         <p className="contactdata">Samakhusi, Kathmandu </p>
                     </p>
-                    <p className="contactd">
-                        Contact No:
-                        <p className="contactdata">9846717715</p>
-                    </p>
+
                 </div>
                 <div className="concolumn">
                     <p className="contacttitle">
