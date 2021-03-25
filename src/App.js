@@ -46,7 +46,9 @@ const [showMenu, setShowMenu] = useState(false);
         <Projects/>
         <Contact/>
       </div>
-
+      <footer className="footer">
+        <p className="foottext">Created by Naresh Ban &copy;  2021</p>
+      </footer>
     </>
   );
 }
