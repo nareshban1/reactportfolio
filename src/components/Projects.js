@@ -124,8 +124,7 @@ const Projects= () => {
                     <hr></hr>
                     <div className="row">
                         <div className="column">
-                            <ModalImage className="designs logo" small={process.env.PUBLIC_URL + '/7star.png'} large={process.env.PUBLIC_URL + '/7star.png'} alt="Demo 7 Start Store logo"/>
-
+                            <ModalImage className="designs logo" small={process.env.PUBLIC_URL + '/7star.png'} large={process.env.PUBLIC_URL + '/7star.png'} alt="7 Start Store logo Demo"/>
                         </div>
                         <div className="column">
                             <ModalImage className="designs logo" small={process.env.PUBLIC_URL + '/royal logo.png'} large={process.env.PUBLIC_URL + '/royal logo.png'} alt="The Royal Boutique Logo"/>
