@@ -36,7 +36,7 @@ const Projects= () => {
                     </p>
                     <div className="applist">
                         <div className="appcard">
-                            <img src='https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg'>
+                            <img src='https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg' alt="projectimage">
                             </img>
                             <div className="appcontent">
                                 <p className="apptitle">College Finder</p>
@@ -53,7 +53,7 @@ const Projects= () => {
                             </div>
                         </div>
                         <div className="appcard">
-                            <img src='https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg'>
+                            <img src='https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg'  alt="projectimage">
                             </img>
                             <div className="appcontent">
                                 <p className="apptitle">CSTC Software Solutions</p>
@@ -70,7 +70,7 @@ const Projects= () => {
                             </div>
                         </div>
                         <div className="appcard">
-                            <img src='https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg'>
+                            <img src='https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg'  alt="projectimage">
                             </img>
                             <div className="appcontent">
                                 <p className="apptitle">Movie Snob</p>
@@ -95,8 +95,9 @@ const Projects= () => {
                     </p>
                     <p className="grptitle">
                         
-                        Illustrations<hr></hr>
+                        Illustrations
                     </p>
+                    <hr></hr>
                     
                     <div className="row">
                     
@@ -115,9 +116,9 @@ const Projects= () => {
                     </div>
                     
                     <p className="grptitle">
-                        Logo Designs<hr></hr>
+                        Logo Designs
                     </p>
-                    
+                    <hr></hr>
                     <div className="row">
                         <div className="column">
                             <ModalImage small={process.env.PUBLIC_URL + '/7star.svg'} large={process.env.PUBLIC_URL + '/7starw.svg'} alt="Demo 7 Start Store logo"/>

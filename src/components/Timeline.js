@@ -2,9 +2,9 @@ const Timeline= () => {
     return(
         <div className="timeline" id="timeline">
             <p className="timetitle">Timeline</p>
-            <div class="timelinecontent">
-                <div class="container left">
-                    <div class="content">
+            <div className="timelinecontent">
+                <div className="container left">
+                    <div className="content">
                     <h2>2020-Present</h2>
                     <p className="cert">Team Captain</p>
                     <p className="name">Cloudfactory</p>
@@ -12,8 +12,8 @@ const Timeline= () => {
                     of managing the schedules, communications and system issues and updates with my team and my leads.</p>
                     </div>
                 </div>
-                <div class="container right">
-                    <div class="content">
+                <div className="container right">
+                    <div className="content">
                     <h2>2017-2020</h2>
                     <p className="cert">Bachelors in Computer Science and Information Technology </p>
                     <p className="name">Herald College</p>
@@ -21,16 +21,16 @@ const Timeline= () => {
                     affiliated to University of Wolverhampton, UK , I got to learn various interesting courses and projects.</p>
                     </div>
                 </div>
-                <div class="container left">
-                    <div class="content">
+                <div className="container left">
+                    <div className="content">
                     <h2>2014-2016</h2>
                     <p className="cert">Higher secondary Education Board (+2 HSEB)</p>
                     <p className="name">Khwopa Higher Secondary School</p>
                     <p className="desc">I completed my higher secondary education in science with first division from this high school. I took a computer route so that I can pursue a career in IT in the future.</p>
                     </div>
                 </div>
-                <div class="container right">
-                    <div class="content">
+                <div className="container right">
+                    <div className="content">
                     <h2>2014</h2>
                     <p className="cert">School Leaving Certificate (SLC)</p>
                     <p className="name">Manakamana English Secondary School</p>

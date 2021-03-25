@@ -7,6 +7,7 @@ import Timeline from './components/Timeline';
 import { FaBars } from 'react-icons/fa';
 import { ImCross } from 'react-icons/im';
 import { useState } from 'react';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -40,7 +41,7 @@ const [showMenu, setShowMenu] = useState(false);
                     <li className="navitems"><a className="item-links" href="#projects">Projects</a></li>
                 </ul>
                 <div className={`${showMenu?'btndiv activeb':'btndiv'}`}>
-                      <button className="button">Lets talk</button>
+                <a  href="#contact"><button className="button">Lets talk</button></a>
                 </div>
                      
             </nav>
@@ -51,6 +52,7 @@ const [showMenu, setShowMenu] = useState(false);
         <Skills/>
         <Timeline/>
         <Projects/>
+        <Contact/>
       </div>
 
     </>

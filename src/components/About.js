@@ -11,9 +11,9 @@ const About= () => {
                     in front end development and am also starting to learn making illustrations and UI designs. 
                     I ocassionally enjoy gaming with my friends.
                 </p>
-                <button className="button-resume ">
+                <a href={process.env.PUBLIC_URL + '/Naresh.pdf'}><button className="button-resume ">
                     Download Resume 
-                </button>
+                </button></a>
             </div>
         </div>
 

@@ -99,16 +99,16 @@
 
 }
 
-.skills, .timeline, .projects{
+.skills, .timeline, .projects, .contacts{
     padding: 3% 15%;
 }
 
-.skill, .timetitle, .projtitle{
+.skill, .timetitle, .projtitle,.contact{
     font: normal normal bold 50px Saira;
     color: #141C3A;
 }
 
-.skilltitle{
+.skilltitle,.contacttitle{
     font: normal 20px Jost;
     color: #141C3A;
 }
@@ -414,7 +414,7 @@
 
 .grptitle{
     font: normal normal bold 20px jost;
-    padding: 10px;
+    padding: 10px 0px;
     margin-top: 10px;
     color: var(--secondary);
 }
@@ -427,7 +427,6 @@
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    padding: 0 4px;
   }
   
   /* Create four equal columns that sits next to each other */
@@ -435,7 +434,7 @@
     -ms-flex: 50%; /* IE10 */
     flex: 50%;
     max-width: 50%;
-    padding: 0 4px;
+    padding: 0px 4px;
     transition: var(--transition);
   }
   
@@ -452,6 +451,53 @@
   }
 
 
+  /*contact*/
+  .conrow {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .concolumn {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    transition: var(--transition);
+  }
+
+  input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  form label{
+    font: normal  16px jost;
+  }
+
+  textarea{
+      height: 150px;
+  }
+
+  .sendbtn{
+    font: normal 20px  Jost;
+    border: 2px solid var(--primary);
+    background-color: var(--button-1);
+    padding: 10px 50px;
+    color: white;
+    border-radius: 50px;
+}
+
+.contact-form{
+    padding: 10px 0px;
+}
 
 
 @media(max-width: 1070px) {
@@ -535,6 +581,13 @@
         flex: 100%;
         max-width: 100%;
       }
+
+    .concolumn {
+        -ms-flex: 100%; /* IE10 */
+        flex: 100%;
+        max-width: 100%;
+    }
+
   }
 
   @media(max-width: 425px) {
