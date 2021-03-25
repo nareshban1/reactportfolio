@@ -521,6 +521,10 @@ textarea {
   color: white;
   border-radius: 50px;
 }
+.sendbtn:hover {
+    background-color: white;
+    color: var(--button-1);
+  }
 
 .contact-form {
   padding: 10px 0px;
