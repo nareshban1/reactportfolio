@@ -21,6 +21,7 @@ const Contact= () => {
       }
 
     return(
+    <div className="abtback">
         <div className="contacts" id="contact">
             <p className="contact" >Let's Talk</p>
             <div className="conrow">
@@ -55,6 +56,7 @@ const Contact= () => {
             </div>
 
         </div>
+    </div>
     )
 }
 

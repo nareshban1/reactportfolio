@@ -80,6 +80,19 @@
   cursor: pointer;
 }
 
+.footer {
+  background-color: var(--secondary);
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foottext {
+  text-align: center;
+  font: normal 16px Jost;
+  color: white;
+}
+
 @media(max-width: 1070px) {
   .navlinks{
       height: 0;

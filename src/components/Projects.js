@@ -13,7 +13,7 @@ const Projects= () => {
     return(
         <div className="projects" id="projects">
             <p className="projtitle">My Projects</p>
-            <div>
+            <div className="maintab">
                 <div className="bloc-tabs">
                     <button
                         className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
@@ -84,6 +84,8 @@ const Projects= () => {
                                 </div>
                             </div>
                         </div>
+                     
+                       
                         
                         
                     </div>
@@ -102,15 +104,16 @@ const Projects= () => {
                     <div className="row">
                     
                         <div className="column">
-                            <ModalImage small={process.env.PUBLIC_URL + '/astronaut1.png'} large={process.env.PUBLIC_URL + '/astronaut1.png'} alt="Astronaut"/>
-                            <ModalImage small={process.env.PUBLIC_URL + '/EARTH.png'} large={process.env.PUBLIC_URL + '/EARTH.png'} alt="Earth"/>
-                            <ModalImage small={process.env.PUBLIC_URL + '/racecar.png'} large={process.env.PUBLIC_URL + '/racecar.png'} alt="Race Car"/>
+                            <ModalImage className="designs" small={process.env.PUBLIC_URL + '/astronaut.png'} large={process.env.PUBLIC_URL + '/astronaut.png'} alt="Astronaut"/>
+                            <ModalImage className="designs" small={process.env.PUBLIC_URL + '/EARTH.png'} large={process.env.PUBLIC_URL + '/EARTH.png'} alt="Earth"/>
+                            <ModalImage className="designs" small={process.env.PUBLIC_URL + '/racecar.png'} large={process.env.PUBLIC_URL + '/racecar.png'} alt="Race Car"/>
+                            <ModalImage className="designs" small={process.env.PUBLIC_URL + '/RAMBO.png'} large={process.env.PUBLIC_URL + '/RAMBO.png'} alt="RAMBO"/>
 
                         </div>
                         <div className="column">
-                            <ModalImage small={process.env.PUBLIC_URL + '/fire.png'} large={process.env.PUBLIC_URL + '/fire.png'} alt="Asteroid"/>
-                            <ModalImage small={process.env.PUBLIC_URL + '/harry potter.png'} large={process.env.PUBLIC_URL + '/harry potter.png'} alt="Harry Potter"/>
-                            <ModalImage small={process.env.PUBLIC_URL + '/batman.png'} large={process.env.PUBLIC_URL + '/batman.png'} alt="Batman Logo"/>
+                            <ModalImage className="designs" small={process.env.PUBLIC_URL + '/fire-tutorial.png'} large={process.env.PUBLIC_URL + '/fire-tutorial.png'} alt="Asteroid"/>
+                            <ModalImage className="designs" small={process.env.PUBLIC_URL + '/harry.png'} large={process.env.PUBLIC_URL + '/harry.png'} alt="Harry Potter"/>
+                            <ModalImage className="designs" small={process.env.PUBLIC_URL + '/batman.png'} large={process.env.PUBLIC_URL + '/batman.png'} alt="Batman Logo"/>
                         </div>
                         
                     </div>
@@ -121,11 +124,11 @@ const Projects= () => {
                     <hr></hr>
                     <div className="row">
                         <div className="column">
-                            <ModalImage small={process.env.PUBLIC_URL + '/7star.svg'} large={process.env.PUBLIC_URL + '/7starw.svg'} alt="Demo 7 Start Store logo"/>
+                            <ModalImage className="designs logo" small={process.env.PUBLIC_URL + '/7star.png'} large={process.env.PUBLIC_URL + '/7star.png'} alt="Demo 7 Start Store logo"/>
 
                         </div>
                         <div className="column">
-                            <ModalImage small={process.env.PUBLIC_URL + '/royallogo.svg'} large={process.env.PUBLIC_URL + '/royallogo.svg'} alt="The Royal Boutique Logo"/>
+                            <ModalImage className="designs logo" small={process.env.PUBLIC_URL + '/royal logo.png'} large={process.env.PUBLIC_URL + '/royal logo.png'} alt="The Royal Boutique Logo"/>
                         </div>
                     </div>
                 </div>
