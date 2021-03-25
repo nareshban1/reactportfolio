@@ -11,14 +11,6 @@ import Contact from './components/Contact';
 
 function App() {
 
- 
-// const navbarlinks = document.getElementsByClassName('navlinks')[0]
-// const btndiv = document.getElementsByClassName('btndiv')[0]
-
-// function greetUser() {
-//   console.log(navbarlinks.classList.toggle('active'))
-//   console.log(btndiv.classList.toggle('active'))
-// }
 
 const [showMenu, setShowMenu] = useState(false);
   return (

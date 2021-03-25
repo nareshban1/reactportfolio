@@ -499,6 +499,18 @@
     padding: 10px 0px;
 }
 
+.contactd{
+    padding: 10px 0px;
+    font: normal 20px  Jost;
+    color: var(--button-1);
+}
+
+.contactdata{
+    font: normal 18px  Jost;
+    color: var(--secondary);
+    
+}
+
 
 @media(max-width: 1070px) {
     .icard{
@@ -586,6 +598,7 @@
         -ms-flex: 100%; /* IE10 */
         flex: 100%;
         max-width: 100%;
+        margin-bottom: 15px;
     }
 
   }

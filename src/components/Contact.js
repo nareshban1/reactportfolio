@@ -5,7 +5,7 @@ const Contact= () => {
 
     function sendEmail(e) {
         e.preventDefault();
-        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target,process.env.REACT_APP_USER_ID)
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target,'user_AyNiOZxv6K1cBXJCxe5Sc')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -21,6 +21,18 @@ const Contact= () => {
                 <div className="concolumn">
                     <p className="contacttitle">
                         You can contact me on the following details.
+                    </p>
+                    <p className="contactd">
+                        Email:
+                        <p className="contactdata">nareshban40@gmail.com</p>
+                    </p>
+                    <p className="contactd">
+                        Address:
+                        <p className="contactdata">Samakhusi, Kathmandu </p>
+                    </p>
+                    <p className="contactd">
+                        Contact No:
+                        <p className="contactdata">9846717715</p>
                     </p>
                 </div>
                 <div className="concolumn">
