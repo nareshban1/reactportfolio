@@ -1,6 +1,7 @@
 import emailjs from 'emailjs-com';
 
 const Contact= () => {
+    console.log(process.env.REACT_APP_USER_ID)
 
     function sendEmail(e) {
         e.preventDefault();
@@ -10,6 +11,7 @@ const Contact= () => {
           }, (error) => {
               console.log(error.text);
           });
+          
       }
 
     return(
