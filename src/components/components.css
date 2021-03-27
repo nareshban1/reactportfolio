@@ -7,6 +7,8 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* Home page*/
+
 .intro {
   margin-top: 50px;
   display: flex;
@@ -16,22 +18,19 @@
   flex-wrap: wrap;
 }
 
-  
-  /* Create four equal columns that sits next to each other */
-  .columnm {
-    justify-content: center;
-    align-items: center;
-    -ms-flex: 100%; /* IE10 */
-    flex: 100%;
-    max-width: 100%;
-    padding: 0px 4px;
-    transition: var(--transition);
-    text-align: center;
-  }
 
- 
+.columnm {
+  justify-content: center;
+  align-items: center;
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  max-width: 100%;
+  padding: 0px 4px;
+  transition: var(--transition);
+  text-align: center;
+}
 
-#main-image { 
+#main-image {
   margin-top: 10px;
   width: 70%;
 }
@@ -55,7 +54,6 @@
   color: white;
   border-radius: 50px;
   margin: 20px;
-  
 }
 
 .abtbtn:hover {
@@ -65,6 +63,10 @@
   transition: all 0.3s ease 0s;
 }
 
+/* Home page End*/
+
+
+/*About*/
 
 .abtback {
   background-color: var(--primary);
@@ -111,6 +113,9 @@
   transition: all 0.3s ease 0s;
 }
 
+/* About Page End*/
+
+/* Skills page End*/
 .skills,
 .timeline,
 .projects,
@@ -190,14 +195,16 @@
 .xd {
   color: #f75eee;
 }
+/* Skills page End*/
 
-/* The actual timeline (the vertical ruler) */
+/* Timeline*/
+
 .timelinecontent {
   position: relative;
   margin: 0 auto;
 }
 
-/* The actual timeline (the vertical ruler) */
+/* The actual timeline  */
 .timelinecontent::after {
   content: "";
   position: absolute;
@@ -286,11 +293,9 @@
   flex-direction: column;
 }
 
-
 .year {
   font: normal normal bold 15px/20px Saira;
   color: var(--other-1);
-
 }
 
 .cert {
@@ -307,7 +312,9 @@
   color: #141c3a;
 }
 
+
 /* Projects section*/
+
 .bloc-tabs {
   display: flex;
 }
@@ -408,7 +415,6 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
-
 }
 
 .appres ul li {
@@ -418,7 +424,6 @@
   padding: 3px 10px;
   background-color: var(--other-1);
   border-radius: 50px;
-  
 }
 
 .grptitle {
@@ -429,15 +434,15 @@
 }
 
 .row {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox; 
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create  equal columns that sits next to each other */
 .column {
-  -ms-flex: 50%; /* IE10 */
+  -ms-flex: 50%; 
   flex: 50%;
   max-width: 50%;
   padding: 0px 4px;
@@ -453,40 +458,39 @@
 }
 
 .logo {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    transition: var(--transition);
-    cursor: pointer;
-  }
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  transition: var(--transition);
+  cursor: pointer;
+}
 
 .designs:hover {
   transform: scale(1.04);
 }
 
 /*contact*/
-.contacts{
-    color: white;
+.contacts {
+  color: white;
 }
 .contact {
-    font: normal normal bold 50px Saira;
-    color: white;
-  }
+  font: normal normal bold 50px Saira;
+  color: white;
+}
 
-  .contacttitle {
-    font: normal 20px Jost;
-    color: white;
-  }
+.contacttitle {
+  font: normal 20px Jost;
+  color: white;
+}
 .conrow {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox; 
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
 }
 
-/* Create four equal columns that sits next to each other */
 .concolumn {
-  -ms-flex: 50%; /* IE10 */
+  -ms-flex: 50%; 
   flex: 50%;
   max-width: 50%;
   transition: var(--transition);
@@ -522,9 +526,9 @@ textarea {
   border-radius: 50px;
 }
 .sendbtn:hover {
-    background-color: white;
-    color: var(--button-1);
-  }
+  background-color: white;
+  color: var(--button-1);
+}
 
 .contact-form {
   padding: 10px 0px;
@@ -577,7 +581,9 @@ textarea {
   .skilltitle,
   .timeline,
   .projtitle,
-  .contact,.contacttitle,.contactd {
+  .contact,
+  .contacttitle,
+  .contactd {
     text-align: center;
   }
 
@@ -585,24 +591,24 @@ textarea {
     justify-content: center;
   }
 
-    .skills,
-    .timeline,
-    .projects,
-    .contacts {
+  .skills,
+  .timeline,
+  .projects,
+  .contacts {
     padding: 3% 5%;
-    }
+  }
 
   .skillcard {
     margin: 10px 0px;
     height: 150px;
     width: 200px;
   }
-  /* Place the timelime to the left */
+
   .timelinecontent::after {
     left: 31px;
   }
 
-  /* Full-width containers */
+
   .container {
     text-align: left;
     width: 100%;
@@ -610,7 +616,7 @@ textarea {
     padding-right: 0px;
   }
 
-  /* Make sure that all arrows are pointing leftwards */
+
   .container::before {
     left: 60px;
     border: medium solid white;
@@ -618,13 +624,13 @@ textarea {
     border-color: transparent white transparent transparent;
   }
 
-  /* Make sure all circles are at the same spot */
+
   .left::after,
   .right::after {
     left: 15px;
   }
 
-  /* Make all right containers behave like the left ones */
+
   .right {
     left: 0%;
   }
