@@ -83,7 +83,7 @@ const Projects = () => {
               </div>
               <div className="appcard">
                 <img
-                  src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg"
+                  src={process.env.PUBLIC_URL + "/logo.png"}
                   alt="projectimage"
                 ></img>
                 <div className="appcontent">
