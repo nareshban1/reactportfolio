@@ -10,7 +10,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="projects" id="projects">
+    <div className="projects" >
       <p className="projtitle">My Projects</p>
       <div className="maintab">
         <div className="bloc-tabs">
@@ -38,7 +38,7 @@ const Projects = () => {
               Here are some of the apps I have developed.
             </p>
             <div className="applist">
-              <div className="appcard">
+              <a className="appcard" target="_blank" rel="noopener noreferrer" href="https://github.com/nareshban1/CollegeFinder">
                 <img
                   src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg"
                   alt="projectimage"
@@ -59,8 +59,8 @@ const Projects = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
-              <div className="appcard">
+              </a>
+              <a className="appcard" target="_blank" rel="noopener noreferrer" href="https://github.com/nareshban1/CSTC">
                 <img
                   src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg"
                   alt="projectimage"
@@ -80,8 +80,8 @@ const Projects = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
-              <div className="appcard">
+              </a>
+              <a className="appcard" target="_blank" rel="noopener noreferrer" href="https://github.com/nareshban1/moviesnob">
                 <img
                   src={process.env.PUBLIC_URL + "/logo.png"}
                   alt="projectimage"
@@ -99,7 +99,7 @@ const Projects = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
 

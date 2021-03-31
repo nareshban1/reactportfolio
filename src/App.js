@@ -45,7 +45,7 @@ function App() {
                 to="about"
                 spy={true}
                 smooth={true}
-                duration={200}
+                duration={500}
               >
                 About
               </Link>
@@ -53,10 +53,10 @@ function App() {
             <li className="navitems">
               <Link
                 className="item-links"
-                to="skills"
+                to="interest"
                 spy={true}
                 smooth={true}
-                duration={200}
+                duration={500}
               >
                 Skills
               </Link>
@@ -67,7 +67,7 @@ function App() {
                 to="timeline"
                 spy={true}
                 smooth={true}
-                duration={200}
+                duration={500}
               >
                 Timeline
               </Link>
@@ -78,7 +78,7 @@ function App() {
                 to="projects"
                 spy={true}
                 smooth={true}
-                duration={200}
+                duration={500}
               >
                 Projects
               </Link>
@@ -89,7 +89,7 @@ function App() {
               to="contact"
               spy={true}
               smooth={true}
-              duration={200}
+              duration={500}
             >
               <button className="button">Lets talk</button>
             </Link>

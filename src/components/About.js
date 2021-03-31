@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="abtback">
-      <div className="about" id="about">
+      <div className="about">
         <h2>Hello, I am Naresh</h2>
         <p className="abouttext">
           I have been interested in web designing for a long time. I just
@@ -12,7 +12,7 @@ const About = () => {
           illustrations and UI designs. I ocassionally enjoy gaming with my
           friends.
         </p>
-        <a href={process.env.PUBLIC_URL + "/Naresh.pdf"}>
+        <a target="_blank" rel="noopener noreferrer" href={process.env.PUBLIC_URL + "/Naresh.pdf"}>
           <button className="button-resume ">Download Resume</button>
         </a>
       </div>

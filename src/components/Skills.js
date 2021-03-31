@@ -14,7 +14,7 @@ import {
 
 const Skills = () => {
   return (
-    <div className="skills" id="skills">
+    <div className="interest">
       <p className="skill">Skills</p>
       <p className="skilltitle">
         Here are some of the skillset I have acquired.

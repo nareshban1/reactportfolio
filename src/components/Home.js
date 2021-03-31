@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div className="intro row" id="intro">
+    <div className="intro row" >
       <div className="columnm">
         <div className="titleview">
           <p id="mtitle"> Full Stack Developer,UI and UX enthusiast</p>

@@ -30,7 +30,7 @@ const Contact = () => {
 
   return (
     <div className="abtback">
-      <div className="contacts" id="contact">
+      <div className="contacts">
         <p className="contact">Let's Talk</p>
         <div className="conrow">
           <div className="concolumn">

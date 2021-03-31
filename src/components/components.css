@@ -116,8 +116,7 @@
 /* About Page End*/
 
 /* Skills page End*/
-.skills,
-.timeline,
+.timeline,.interest,
 .projects,
 .contacts {
   padding: 3% 15%;
@@ -317,6 +316,7 @@
 
 .bloc-tabs {
   display: flex;
+  padding-top: 10px;
 }
 
 .tabs {
@@ -379,6 +379,7 @@
   border-radius: 6px;
   margin: 15px;
   transition: var(--transition);
+  text-decoration: none;
 }
 
 .appcard:hover {
@@ -577,7 +578,7 @@ textarea {
     align-self: center;
   }
 
-  .skills,
+  .interest,
   .skilltitle,
   .timeline,
   .projtitle,
