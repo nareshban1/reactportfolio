@@ -1,0 +1,14 @@
+.designs {
+    vertical-align: middle;
+    width: 100%;
+    transition: var(--transition);
+    cursor: pointer;
+    background-color: white;
+    box-shadow: -1px 1px 10px -5px rgba(0, 0, 0, 0.64);
+    border-radius:5px;
+  }
+  
+  .designs:hover {
+    transform: scale(1.04);
+  }
+  

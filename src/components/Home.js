@@ -6,13 +6,13 @@ const Home = () => {
     <div className="intro row" >
       <div className="columnm">
         <div className="titleview">
-          <p id="mtitle"> Full Stack Developer,UI and UX enthusiast</p>
+          <p id="mtitle"> Front End Developer,UI and UX enthusiast</p>
           <p id="stitle">
             I love coding and it's thrilling to fix bugs and cry trying.
           </p>
           <Link
                 className="item-links"
-                to="skills"
+                to="interest"
                 spy={true}
                 smooth={true}
                 duration={200}

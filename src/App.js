@@ -105,7 +105,8 @@ function App() {
         <Contact />
       </div>
       <footer className="footer">
-        <p className="foottext">Created by Naresh Ban &copy; 2021</p>
+        <p className="foottext">Created by Naresh Ban &copy; 2021 <p>Learning React</p></p>
+        
       </footer>
     </>
   );
