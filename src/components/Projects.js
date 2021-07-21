@@ -40,6 +40,33 @@ const Projects = () => {
               Here are some of the apps I have developed.
             </p>
             <div className="applist">
+            <a
+                className="appcard"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://social-clone.netlify.app/"
+              >
+                <img
+                  src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg"
+                  alt="projectimage"
+                ></img>
+                <div className="appcontent">
+                  <p className="apptitle">Social Clone</p>
+                  <p className="appdesc">
+                    A blog app I made using react and firebase
+                  </p>
+                  <div className="appres">
+                    <ul>
+                      <li className="ares">HTML</li>
+                      <li className="ares">CSS</li>
+                      <li className="ares">Javascript</li>
+                      <li className="ares">React</li>
+                      <li className="ares">Firebase</li>
+                      <li className="ares">netlify</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
               <a
                 className="appcard"
                 target="_blank"
@@ -53,7 +80,7 @@ const Projects = () => {
                 <div className="appcontent">
                   <p className="apptitle">CovidInfo</p>
                   <p className="appdesc">
-                    Simple Covis info app using react and disease.sh api.
+                    Simple Covid info app using react and disease.sh api.
                   </p>
                   <div className="appres">
                     <ul>

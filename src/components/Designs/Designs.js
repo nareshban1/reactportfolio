@@ -32,24 +32,13 @@ function Designs({toggleState}) {
           large={process.env.PUBLIC_URL + "/CAR-01.png"}
           alt="batman car"
         />
-        <ModalImage
-          className="designs"
-          small={process.env.PUBLIC_URL + "/MOON.png"}
-          large={process.env.PUBLIC_URL + "/MOON.png"}
-          alt="red moon"
-        />
+
 
         <ModalImage
           className="designs"
           small={process.env.PUBLIC_URL + "/EARTH.png"}
           large={process.env.PUBLIC_URL + "/EARTH.png"}
           alt="Earth"
-        />
-        <ModalImage
-          className="designs "
-          small={process.env.PUBLIC_URL + "/7star.png"}
-          large={process.env.PUBLIC_URL + "/7star.png"}
-          alt="7 Start Store logo Demo"
         />
         <ModalImage
           className="designs"
@@ -63,12 +52,6 @@ function Designs({toggleState}) {
           small={process.env.PUBLIC_URL + "/batman.png"}
           large={process.env.PUBLIC_URL + "/batman.png"}
           alt="Batman Logo"
-        />
-        <ModalImage
-          className="designs "
-          small={process.env.PUBLIC_URL + "/royal logo.png"}
-          large={process.env.PUBLIC_URL + "/royal logo.png"}
-          alt="The Royal Boutique Logo"
         />
         <ModalImage
           className="designs"
@@ -88,12 +71,6 @@ function Designs({toggleState}) {
           small={process.env.PUBLIC_URL + "/fire-tutorial.png"}
           large={process.env.PUBLIC_URL + "/fire-tutorial.png"}
           alt="Asteroid"
-        />
-        <ModalImage
-          className="designs"
-          small={process.env.PUBLIC_URL + "/LIGHT POLE.png"}
-          large={process.env.PUBLIC_URL + "/LIGHT POLE.png"}
-          alt="Race Car"
         />
         <ModalImage
           className="designs"

@@ -42,19 +42,13 @@ const Skills = () => {
           <p className="cardtitle">Bootstrap</p>
           <p className="level">Intermediate</p>
         </div>
-        <div className="skillcard">
-          <span className="cardlogo django">
-            <SiDjango />
-          </span>
-          <p className="cardtitle">Django</p>
-          <p className="level">Intermediate</p>
-        </div>
+        
         <div className="skillcard">
           <span className="cardlogo javascript">
             <SiJavascript />
           </span>
           <p className="cardtitle">Javascript</p>
-          <p className="level">Intermediate</p>
+          <p className="level">Basic</p>
         </div>
         <div className="skillcard">
           <span className="cardlogo react">
@@ -68,6 +62,13 @@ const Skills = () => {
             <FaGitAlt />
           </span>
           <p className="cardtitle">GIT</p>
+          <p className="level">Basic</p>
+        </div>
+        <div className="skillcard">
+          <span className="cardlogo django">
+            <SiDjango />
+          </span>
+          <p className="cardtitle">Django</p>
           <p className="level">Basic</p>
         </div>
         <div className="skillcard">
