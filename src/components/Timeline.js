@@ -3,6 +3,18 @@ const Timeline = () => {
     <div className="timeline">
       <p className="timetitle">Timeline</p>
       <div className="timelinecontent">
+      <div className="container right">
+          <div className="content">
+            <p className="year">2021-Present</p>
+            <p className="cert">
+              Developer/UI Designer{" "}
+            </p>
+            <p className="name">Datafox</p>
+            <p className="desc">
+              Currently just some friends trying to learn and experience new things working on real world projects on our own in the midst of this pandemic. And its awesome.
+            </p>
+          </div>
+        </div>
         <div className="container left">
           <div className="content cleft">
             <p className="year">2020-Present</p>

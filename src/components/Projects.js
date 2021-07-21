@@ -1,6 +1,6 @@
 import "./components.css";
 import { useState } from "react";
-import ModalImage from "react-modal-image";
+import Designs from "./Designs/Designs";
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -9,8 +9,10 @@ const Projects = () => {
     setToggleState(index);
   };
 
+   
+
   return (
-    <div className="projects" >
+    <div className="projects">
       <p className="projtitle">My Projects</p>
       <div className="maintab">
         <div className="bloc-tabs">
@@ -38,7 +40,92 @@ const Projects = () => {
               Here are some of the apps I have developed.
             </p>
             <div className="applist">
-              <a className="appcard" target="_blank" rel="noopener noreferrer" href="https://github.com/nareshban1/CollegeFinder">
+            <a
+                className="appcard"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://social-clone.netlify.app/"
+              >
+                <img
+                  src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg"
+                  alt="projectimage"
+                ></img>
+                <div className="appcontent">
+                  <p className="apptitle">Social Clone</p>
+                  <p className="appdesc">
+                    A blog app I made using react and firebase
+                  </p>
+                  <div className="appres">
+                    <ul>
+                      <li className="ares">HTML</li>
+                      <li className="ares">CSS</li>
+                      <li className="ares">Javascript</li>
+                      <li className="ares">React</li>
+                      <li className="ares">Firebase</li>
+                      <li className="ares">netlify</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+              <a
+                className="appcard"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://reactcovidinfo.netlify.app/"
+              >
+                <img
+                  src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg"
+                  alt="projectimage"
+                ></img>
+                <div className="appcontent">
+                  <p className="apptitle">CovidInfo</p>
+                  <p className="appdesc">
+                    Simple Covid info app using react and disease.sh api.
+                  </p>
+                  <div className="appres">
+                    <ul>
+                      <li className="ares">HTML</li>
+                      <li className="ares">CSS</li>
+                      <li className="ares">Javascript</li>
+                      <li className="ares">React</li>
+                      <li className="ares">disease.sh</li>
+                      <li className="ares">netlify</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+              <a
+                className="appcard"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/nareshban1/CSTC"
+              >
+                <img
+                  src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg"
+                  alt="projectimage"
+                ></img>
+                <div className="appcontent">
+                  <p className="apptitle">CSTC Software Solutions</p>
+                  <p className="appdesc">
+                    Demo bill recording web app for CSTC Software Solutions.
+                  </p>
+                  <div className="appres">
+                    <ul>
+                      <li className="ares">HTML</li>
+                      <li className="ares">CSS</li>
+                      <li className="ares">Bootstrap</li>
+                      <li className="ares">Javascript</li>
+                      <li className="ares">Django</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+              <a
+                className="appcard"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/nareshban1/CollegeFinder"
+              >
                 <img
                   src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg"
                   alt="projectimage"
@@ -60,28 +147,12 @@ const Projects = () => {
                   </div>
                 </div>
               </a>
-              <a className="appcard" target="_blank" rel="noopener noreferrer" href="https://github.com/nareshban1/CSTC">
-                <img
-                  src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/bUcvrRc-1-796x398.jpg"
-                  alt="projectimage"
-                ></img>
-                <div className="appcontent">
-                  <p className="apptitle">CSTC Software Solutions</p>
-                  <p className="appdesc">
-                    Demo bill recording web app for CSTC Software Solutions.
-                  </p>
-                  <div className="appres">
-                    <ul>
-                      <li className="ares">HTML</li>
-                      <li className="ares">CSS</li>
-                      <li className="ares">Bootstrap</li>
-                      <li className="ares">Javascript</li>
-                      <li className="ares">Django</li>
-                    </ul>
-                  </div>
-                </div>
-              </a>
-              <a className="appcard" target="_blank" rel="noopener noreferrer" href="https://github.com/nareshban1/moviesnob">
+              <a
+                className="appcard"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/nareshban1/moviesnob"
+              >
                 <img
                   src={process.env.PUBLIC_URL + "/logo.png"}
                   alt="projectimage"
@@ -102,87 +173,14 @@ const Projects = () => {
               </a>
             </div>
           </div>
-
           <div
             className={
               toggleState === 2 ? "pcontent  active-content" : "pcontent"
             }
           >
-            <p className="skilltitle">
-              I have been learning to make illustrations.
-            </p>
-            <p className="grptitle">Illustrations</p>
-            <hr></hr>
+              <Designs/>
 
-            <div className="row">
-              <div className="column">
-                <ModalImage
-                  className="designs"
-                  small={process.env.PUBLIC_URL + "/astronaut.png"}
-                  large={process.env.PUBLIC_URL + "/astronaut.png"}
-                  alt="Astronaut"
-                />
-                <ModalImage
-                  className="designs"
-                  small={process.env.PUBLIC_URL + "/EARTH.png"}
-                  large={process.env.PUBLIC_URL + "/EARTH.png"}
-                  alt="Earth"
-                />
-                <ModalImage
-                  className="designs"
-                  small={process.env.PUBLIC_URL + "/racecar.png"}
-                  large={process.env.PUBLIC_URL + "/racecar.png"}
-                  alt="Race Car"
-                />
-                <ModalImage
-                  className="designs"
-                  small={process.env.PUBLIC_URL + "/RAMBO.png"}
-                  large={process.env.PUBLIC_URL + "/RAMBO.png"}
-                  alt="RAMBO"
-                />
-              </div>
-              <div className="column">
-                <ModalImage
-                  className="designs"
-                  small={process.env.PUBLIC_URL + "/fire-tutorial.png"}
-                  large={process.env.PUBLIC_URL + "/fire-tutorial.png"}
-                  alt="Asteroid"
-                />
-                <ModalImage
-                  className="designs"
-                  small={process.env.PUBLIC_URL + "/harry.png"}
-                  large={process.env.PUBLIC_URL + "/harry.png"}
-                  alt="Harry Potter"
-                />
-                <ModalImage
-                  className="designs"
-                  small={process.env.PUBLIC_URL + "/batman.png"}
-                  large={process.env.PUBLIC_URL + "/batman.png"}
-                  alt="Batman Logo"
-                />
-              </div>
-            </div>
 
-            <p className="grptitle">Logo Designs</p>
-            <hr></hr>
-            <div className="row">
-              <div className="column">
-                <ModalImage
-                  className="designs logo"
-                  small={process.env.PUBLIC_URL + "/7star.png"}
-                  large={process.env.PUBLIC_URL + "/7star.png"}
-                  alt="7 Start Store logo Demo"
-                />
-              </div>
-              <div className="column">
-                <ModalImage
-                  className="designs logo"
-                  small={process.env.PUBLIC_URL + "/royal logo.png"}
-                  large={process.env.PUBLIC_URL + "/royal logo.png"}
-                  alt="The Royal Boutique Logo"
-                />
-              </div>
-            </div>
           </div>
         </div>
       </div>
