@@ -20,7 +20,7 @@ const Projects = () => {
                   their profiles and more. I learned a lot about React doing
                   this project.
                 </p>
-                <a href="social-clone.netlify.app" target="_blank">
+                <a href="https://social-clone.netlify.app/" target="_blank">
                   <button className="appLink">Go to App</button>
                 </a>
               </div>
