@@ -1,0 +1,65 @@
+
+/*About*/
+
+.abtback {
+    background-color: var(--newbackground);
+  }
+  .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding:50px 0px;
+  }
+
+  .aboutme{
+      width: 50%;
+  }
+  
+  .about h2 {
+    align-self: start;
+    color: var(--newSecondary);
+    font-family:var(--primaryFont);
+    font-size: 2rem;
+  }
+  
+  .abouttext {
+    line-height: 2rem;
+    align-self: start;
+    margin-top: 10px;
+    color: white;
+    font-family:var(--secondaryFont);
+    font-size: 1.2rem;
+  }
+  
+  .button-resume {
+    margin-top: 30px;
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family:  var(--secondaryFont);
+    color: white;
+  }
+  
+  .button-resume:hover {
+    background-color: var(--newSecondary);
+    color: var(--newText);
+    border-color: var(--newSecondary);
+    transition: all 0.3s ease 0s;
+  }
+
+  .about_image{
+      width: 50%;
+  }
+
+  .myProfile{
+      height: auto;
+      width: 60%;
+      float: right;
+  }
+
+
+  
+  /* About Page End*/

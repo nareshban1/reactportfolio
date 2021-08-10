@@ -1,0 +1,65 @@
+
+/* Home page*/
+
+.intro {
+    height: 90vh;
+    background-color: var(--newPrimary);
+
+  }
+  
+  .homeview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+
+  .titleview{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 40%;
+  }
+ 
+  
+  .mtitle {
+    font-family: var(--primaryFont);
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: var(--newText);
+  }
+  
+  .coloredtitle{
+    color:var(--newSecondary);
+  }
+  
+  .stitle {
+    font-family: var(--secondaryFont);
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--newText);
+  }
+  
+  .abtbtn {
+    font: normal 20px Jost;
+    border: 2px solid var(--newSecondary);
+    background-color: var(--newSecondary);
+    padding: 10px 50px;
+    color: white;
+    border-radius:10px;
+    transition: var(--transition);
+  }
+  
+  .abtbtn:hover {
+    background-color: transparent;
+    color: var(--newSecondary);
+    cursor: pointer;
+    
+  }
+  
+  /* Home page End*/
+  

@@ -1,115 +1,36 @@
 import "./App.css";
-import About from "./components/About";
-import Home from "./components/Home";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Timeline from "./components/Timeline";
-import { FaBars } from "react-icons/fa";
-import { ImCross } from "react-icons/im";
-import { useState } from "react";
-import Contact from "./components/Contact";
-import { Link } from "react-scroll";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/NavBar/Navbar";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
+import Timeline from "./components/Timeline/Timeline";
+import Projects from "./components/Projects/Projects";
+import RecentWork from "./components/RecentWork/RecentWork";
+import Designs from "./components/Designs/Designs";
+import Contact from "./components/Contact/Contact";
+
 
 function App() {
-  const [showMenu, setShowMenu] = useState(false);
-
-  return (
-    <>
-      <header className="header">
-        <nav className="navbar">
-          <div className="loto">
-            <a className="logo" href="/">
-              NB
-            </a>
-            {showMenu ? (
-              <span
-                className="togglebtn"
-                onClick={() => setShowMenu(!showMenu)}
-              >
-                <ImCross />
-              </span>
-            ) : (
-              <span
-                className="togglebtn"
-                onClick={() => setShowMenu(!showMenu)}
-              >
-                <FaBars />
-              </span>
-            )}
-          </div>
-
-          <ul className={`${showMenu ? "navlinks active" : "navlinks"}`}>
-            <li className="navitems">
-              <Link
-                className="item-links"
-                to="about"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                About
-              </Link>
-            </li>
-            <li className="navitems">
-              <Link
-                className="item-links"
-                to="interest"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Skills
-              </Link>
-            </li>
-            <li className="navitems">
-              <Link
-                className="item-links"
-                to="timeline"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Timeline
-              </Link>
-            </li>
-            <li className="navitems">
-              <Link
-                className="item-links"
-                to="projects"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Projects
-              </Link>
-            </li>
-          </ul>
-          <div className={`${showMenu ? "btndiv activeb" : "btndiv"}`}>
-            <Link
-              to="contact"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              <button className="button">Lets talk</button>
-            </Link>
-          </div>
-        </nav>
-      </header>
-      <div className="main-view">
-        <Home />
-        <About />
-        <Skills />
-        <Timeline />
-        <Projects />
-        <Contact />
+    return(
+      <>
+      <div style={{height:"30px" ,backgroundColor:"#FF3030", color:"white" ,fontFamily:"Poppins" , textAlign:"center"}}>
+        <p>This site is still under development.</p>
       </div>
-      <footer className="footer">
-        <p className="foottext">Created by Naresh Ban &copy; 2021 <p>Learning React</p></p>
-        
-      </footer>
-    </>
-  );
+      <Navbar/>
+      <div className="main_view">
+        <Home />
+        <RecentWork/>
+        <Skills/>
+        <About/>
+        <Timeline/>
+        <Projects/>
+        <Designs/>
+        <Contact/>
+      </div>
+      <Footer/>
+      </>
+    )
 }
 
 export default App;

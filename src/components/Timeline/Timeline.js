@@ -1,21 +1,25 @@
+import"./Timeline.css"
+
 const Timeline = () => {
   return (
     <div className="timeline">
-      <p className="timetitle">Timeline</p>
-      <div className="timelinecontent">
-      <div className="container right">
+      
+      <div className="container">
+        <p className="timetitle">Timeline</p>
+        <div className="timelinecontent">
+        <div className="timelinecontainer right">
           <div className="content">
             <p className="year">2021-Present</p>
-            <p className="cert">
-              Developer/UI Designer{" "}
-            </p>
+            <p className="cert">Developer/UI Designer </p>
             <p className="name">Datafox</p>
             <p className="desc">
-              Currently just some friends trying to learn and experience new things working on real world projects on our own in the midst of this pandemic. And its awesome.
+              Currently just some friends trying to learn and experience new
+              things working on real world projects on our own in the midst of
+              this pandemic. And its awesome.
             </p>
           </div>
         </div>
-        <div className="container left">
+        <div className="timelinecontainer left">
           <div className="content cleft">
             <p className="year">2020-Present</p>
             <p className="cert">Team Captain</p>
@@ -28,7 +32,7 @@ const Timeline = () => {
             </p>
           </div>
         </div>
-        <div className="container right">
+        <div className="timelinecontainer right">
           <div className="content">
             <p className="year">2017-2020</p>
             <p className="cert">
@@ -43,7 +47,7 @@ const Timeline = () => {
             </p>
           </div>
         </div>
-        <div className="container left">
+        <div className="timelinecontainer left">
           <div className="content cleft">
             <p className="year">2014-2016</p>
             <p className="cert">Higher secondary Education Board (+2 HSEB)</p>
@@ -55,7 +59,7 @@ const Timeline = () => {
             </p>
           </div>
         </div>
-        <div className="container right">
+        <div className="timelinecontainer right">
           <div className="content">
             <p className="year">2014</p>
             <p className="cert">School Leaving Certificate (SLC)</p>
@@ -67,6 +71,7 @@ const Timeline = () => {
               education.{" "}
             </p>
           </div>
+        </div>
         </div>
       </div>
     </div>

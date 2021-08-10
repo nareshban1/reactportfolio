@@ -11,7 +11,10 @@ function Designs({toggleState}) {
   };
   
   return (
-    <>
+    <div className="design" id="illustrations">
+      <div className="designscontainer container">
+      <p className="projtitle">Illustrations</p>
+      <div className="pcontent">
       <p className="skilltitle">
         I have been learning to make UI design and illustrations.
       </p>
@@ -22,24 +25,11 @@ function Designs({toggleState}) {
       >
         <ModalImage
           className="designs"
-          small={process.env.PUBLIC_URL + "/trying poster.png"}
-          large={process.env.PUBLIC_URL + "/poster.png"}
-          alt="Astronaut poster"
-        />
-        <ModalImage
-          className="designs"
           small={process.env.PUBLIC_URL + "/CAR-01.png"}
           large={process.env.PUBLIC_URL + "/CAR-01.png"}
           alt="batman car"
         />
 
-
-        <ModalImage
-          className="designs"
-          small={process.env.PUBLIC_URL + "/EARTH.png"}
-          large={process.env.PUBLIC_URL + "/EARTH.png"}
-          alt="Earth"
-        />
         <ModalImage
           className="designs"
           small={process.env.PUBLIC_URL + "/harry.png"}
@@ -52,12 +42,6 @@ function Designs({toggleState}) {
           small={process.env.PUBLIC_URL + "/batman.png"}
           large={process.env.PUBLIC_URL + "/batman.png"}
           alt="Batman Logo"
-        />
-        <ModalImage
-          className="designs"
-          small={process.env.PUBLIC_URL + "/RAMBO.png"}
-          large={process.env.PUBLIC_URL + "/RAMBO.png"}
-          alt="RAMBO"
         />
         <ModalImage
           className="designs"
@@ -79,7 +63,9 @@ function Designs({toggleState}) {
           alt="Race Car"
         />
       </Masonry>
-    </>
+      </div>
+      </div>
+    </div>
   );
 }
 

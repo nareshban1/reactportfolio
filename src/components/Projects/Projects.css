@@ -1,0 +1,118 @@
+/* Projects section*/
+
+.projects{
+    background-color: var(--newbackground);
+    padding: 50px 0px;
+}
+
+
+.projtitle{
+    font-family: var(--primaryFont);
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--newSecondary);
+  }
+
+  .pcontent {
+    padding: 20px 0px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .active-content {
+    display: block;
+  }
+  
+
+  .skilltitle{
+    font-family: var(--secondaryFont);
+    font-size: 1rem;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .applist{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      
+  }
+
+
+
+.appcontainer{
+  padding:15px;
+  border-radius: 8px;
+  background-color: var(--newPrimary);
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  justify-content: space-between;
+
+}
+.appcontent{
+  width: 50%;
+}
+.apptitle{
+  color: var(--newSecondary);
+  font-family: var(--primaryFont);
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.appname{
+  color: var(--newText);
+  font-family: var(--secondaryFont);
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+.appdesc{
+  margin-top: 30px;
+  color: var(--newText);
+  font-family: var(--secondaryFont);
+  line-height: 2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.appLink{
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family:  var(--secondaryFont);
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+.appLink:hover {
+  background-color: var(--newSecondary);
+  color: var(--newText);
+  border-color: var(--newSecondary);
+  
+}
+
+
+.appImage{
+  width: 47%;
+  position: relative;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px  #303030 ;
+  object-fit: fill;
+}
+
+
+
+.appimageview{
+  width: 100%;
+  height: 100%;
+
+ 
+}

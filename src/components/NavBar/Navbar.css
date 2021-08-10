@@ -1,0 +1,130 @@
+
+
+  .header{
+    background-color: var(--newPrimary) ;
+    transition: var(--transition);
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: var(--transition);
+   
+    
+  }
+  
+  
+  .logo {
+    font-family: var(--secondaryFont);
+    font-size: 3.5rem;
+    color: var(--newSecondary);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+    transition: var(--transition);
+  }
+  
+  .logo:hover {
+    color: var(--newSecondary);
+    opacity: 0.8;
+  }
+  
+  .navlinks {
+    display: flex;
+  }
+
+  .navitems {
+    padding: 10px 20px;
+    list-style: none;
+  }
+
+  .togglebtn {
+    cursor: pointer;
+    display: none;
+    font-size: 30px;
+    color: var(--newSecondary);
+    transition: var(--transition);
+  }
+  
+  .togglebtn:hover {
+    cursor: pointer;
+    color: var(--newSecondary);
+    opacity: 0.8;
+  }
+  
+  .item-links {
+    font-family: var(--primaryFont);
+    font-size: 20px;
+    color: var(--newText);
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+  }
+  
+  .item-links:hover {
+    color: var(--newSecondary);
+    opacity: 0.8;
+  }
+  
+  .button {
+    font-family: var(--primaryFont);
+    color: var(--newSecondary);
+    border: 1px solid var(--newSecondary);
+    background: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    transition: var(--transition);
+  }
+  
+  .button:hover {
+    color: white;
+    background-color: var(--newSecondary);
+    cursor: pointer;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        
+      }
+    .navlinks {
+      height: 0;
+      overflow: hidden;
+      width: 100%;
+      padding: 0;
+      align-items: flex-end;
+      flex-direction: column;
+      transition: var(--transition);
+    }
+  
+    .button {
+        display: none;
+        }
+
+  
+    .active {
+      display: block;
+      height: 300px;
+    }
+
+    .logosmall{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    
+    .togglebtn {
+      display: block;
+    }
+  
+    .navitems {
+      text-align: right;
+      padding-right: 0;
+    }
+  }
+  

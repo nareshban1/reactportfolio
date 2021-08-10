@@ -1,0 +1,83 @@
+/* Skills page End*/
+
+.interest {
+  background-color: var(--newPrimary);
+  padding: 50px 0px;
+}
+
+.skill {
+  font-family: var(--primaryFont);
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--newSecondary);
+}
+
+.skilltitle {
+  font-family: var(--secondaryFont);
+  color: var(--newText);
+}
+
+.skilllist {
+  margin: 20px 0px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+}
+
+.skillcard {
+  background-color: var(--newbackground);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 160px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cardlogo {
+  font-size: 60px;
+}
+
+.cardtitle {
+  font-family: var(--primaryFont);
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--newText);
+}
+
+.level {
+  font-family: var(--secondaryFont);
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: var(--newText);
+}
+
+.html {
+  color: #dd4b25;
+}
+.css {
+  color: #254bdd;
+}
+.boot {
+  color: #5e2ca7;
+}
+.django {
+  color: #2aa473;
+}
+.javascript {
+  color: #efd81d;
+}
+.react {
+  color: #61dbfb;
+}
+.git {
+  color: #f34f29;
+}
+.ai {
+  color: #f79500;
+}
+.xd {
+  color: #f75eee;
+}
+/* Skills page End*/
