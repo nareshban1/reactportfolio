@@ -41,13 +41,14 @@
     font-size: 1.2rem;
     font-family:  var(--secondaryFont);
     color: white;
+    transition: all 0.3s ease 0s;
   }
   
   .button-resume:hover {
     background-color: var(--newSecondary);
     color: var(--newText);
     border-color: var(--newSecondary);
-    transition: all 0.3s ease 0s;
+   
   }
 
   @keyframes levitate {
