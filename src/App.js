@@ -14,7 +14,7 @@ import Contact from "./components/Contact/Contact";
 function App() {
     return(
       <>
-      <div style={{height:"30px" ,backgroundColor:"#FF3030", color:"white" ,fontFamily:"Poppins" , textAlign:"center"}}>
+      <div style={{height:"30px" ,backgroundColor:"#FD4370", color:"white" ,fontFamily:"Poppins" , textAlign:"center"}}>
         <p>This site is still under development.</p>
       </div>
       <Navbar/>
