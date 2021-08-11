@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
 :root {
   --newPrimary:#141628;
   --newSecondary:#FD4370;
