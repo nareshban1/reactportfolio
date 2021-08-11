@@ -20,7 +20,7 @@ const Projects = () => {
                   their profiles and more. I learned a lot about React doing
                   this project.
                 </p>
-                <a href="https://social-clone.netlify.app/" target="_blank">
+                <a href="https://social-clone.netlify.app/" rel="noreferrer" target="_blank">
                   <button className="appLink">Go to App</button>
                 </a>
               </div>
@@ -46,7 +46,7 @@ const Projects = () => {
                   A simple covid info app I developed using react, disease.sh
                   api and chart.js library.
                 </p>
-                <a href="https://reactcovidinfo.netlify.app" target="_blank">
+                <a href="https://reactcovidinfo.netlify.app" rel="noreferrer" target="_blank">
                   <button className="appLink">Go to App</button>
                 </a>
               </div>
@@ -57,7 +57,7 @@ const Projects = () => {
                 <p className="appdesc">
                   A demo webapp for CSTC software solutions to record their physical bills and save them online. Track subscription payments and reports.
                 </p>
-                <a href="https://github.com/nareshban1/CSTC" target="_blank">
+                <a href="https://github.com/nareshban1/CSTC" rel="noreferrer" target="_blank">
                   <button className="appLink">Go to Repo</button>
                 </a>
               </div>
@@ -82,7 +82,7 @@ const Projects = () => {
                 <p className="appdesc">
                   A webapp I created as my college final year project that helps students in nepal to search for colleges. Also implemented with a sentiment analysis AI to analyze comments and rate the colleges.
                 </p>
-                <a href="https://github.com/nareshban1/CollegeFinder" target="_blank">
+                <a href="https://github.com/nareshban1/CollegeFinder" rel="noreferrer" target="_blank">
                   <button className="appLink">Go to Repo</button>
                 </a>
               </div>

@@ -4,9 +4,18 @@
 .intro {
     height: 90vh;
     background-color: var(--newPrimary);
+    position: relative;
 
   }
   
+  #tsparticles{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index:0;
+    
+  }
+
   .homeview{
     display: flex;
     flex-direction: column;
@@ -23,6 +32,7 @@
       flex-direction: column;
       justify-content: space-evenly;
       height: 40%;
+      z-index:2;
   }
  
   
