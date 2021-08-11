@@ -79,7 +79,7 @@
   }
   
   /* Add arrows to the right container (pointing left) */
-  .right::before {
+  /* .right::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -90,7 +90,7 @@
     border: medium solid var(--newbackground);
     border-width: 10px 10px 10px 0;
     border-color: transparent var(--newbackground) transparent transparent;
-  }
+  } */
   
   /* Fix the circle for containers on the right side */
   .right::after {
