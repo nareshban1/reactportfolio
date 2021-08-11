@@ -14,11 +14,7 @@ import { css } from "@emotion/react";
 import RingLoader from "react-spinners/RingLoader";
 import DotLoader from "react-spinners/DotLoader";
 
-const override = css`
-  display: block;
-  margin: 0 auto;
-  border-color: #FD4370";
-`;
+
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -56,8 +52,8 @@ function App() {
           <Footer />
         </div>
       ) : (
-        <div className="loading">
-          <RingLoader color={"#FD4370"} css={override} size={150}></RingLoader>
+        <div className="loadingpage">
+          <RingLoader color={"#FD4370"}  size={100}></RingLoader>
         </div>
       )}{" "}
     </>
