@@ -50,14 +50,22 @@
     transition: all 0.3s ease 0s;
   }
 
+  @keyframes levitate {
+    0%   {transform: translatey(0px);}
+    50%  {transform: translatey(-20px);}
+    100% {transform: translatey(0px);}
+  }
+
   .about_image{
       width: 40%;
+      
   }
 
   .myProfile{
       height: auto;
       width: 100%;
       float: right;
+      animation: levitate 6s ease-in-out infinite;
   }
 
 
