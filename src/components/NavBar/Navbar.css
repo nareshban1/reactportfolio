@@ -35,7 +35,7 @@
   }
 
   .navitems {
-    padding: 10px 20px;
+    padding: 10px 15px;
     list-style: none;
   }
 
@@ -55,7 +55,7 @@
   
   .item-links {
     font-family: var(--primaryFont);
-    font-size: 20px;
+    font-size:clamp(18px,2vw,20px);
     color: var(--newText);
     text-decoration: none;
     transition: all 0.3s ease 0s;
@@ -64,10 +64,11 @@
   
   .item-links:hover {
     color: var(--newSecondary);
+    letter-spacing: 0.2em;
     opacity: 0.8;
   }
   
-  .button {
+  .button,.button1 {
     font-family: var(--primaryFont);
     color: var(--newSecondary);
     border: 1px solid var(--newSecondary);
@@ -77,15 +78,23 @@
     transition: var(--transition);
   }
   
-  .button:hover {
+  .button1:hover,.button:hover {
     color: white;
     background-color: var(--newSecondary);
     cursor: pointer;
   }
+
+  .smallscreenbtn{
+    display: none;
+  }
+
+ 
   
 
   
   @media (max-width: 768px) {
+
+   
     .navbar {
         flex-direction: column;
         
@@ -104,11 +113,22 @@
         display: none;
         }
 
+        .button1 {
+          display: block;
+          margin-top: 15px;
+          float: right;
+          }
+
+        .smallscreenbtn{
+          display: block;
+        }
   
     .active {
       display: block;
       height: 300px;
     }
+
+    
 
     .logosmall{
       width: 100%;

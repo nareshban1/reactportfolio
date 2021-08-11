@@ -7,9 +7,9 @@ const Home = () => {
       <div className="container homeview">
       <div className="titleview">
         <p className="mtitle coloredtitle"> Front End Developer,</p>
-        <p className="mtitle">UI and illustrations enthusiast</p>
+        <p className="mtitle">Occasional Gamer</p>
         <p className="stitle">
-          I love coding and it's thrilling to fix bugs and cry trying.
+          I love coding and it's thrilling to fix bugs or cry trying.
         </p>
         <Link
           className="item-links"

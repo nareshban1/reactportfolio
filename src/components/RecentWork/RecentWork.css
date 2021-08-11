@@ -28,7 +28,7 @@
     font-weight: 700;
 }
 .recent-projectdesc{
-    margin-top: 30px;
+    margin-top: 20px;
     color: var(--newText);
     font-family: var(--secondaryFont);
     line-height: 2rem;
@@ -79,6 +79,28 @@
 }
 
 
+@media  screen and (max-width: 768px) {
+    .recentcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     
+    }
 
+    .recentcontent{
+        margin-top: 20px;
+        width: 100%;
+        order: 2;
+        text-align: justify;
+    }
+
+    .recentImage{
+        margin:0;
+        width: 100%;
+        order: 1;
+       
+        
+    }
+}
 
   

@@ -42,8 +42,8 @@
   .timelinecontainer::after {
     content: "";
     position: absolute;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     right: -17px;
     background-color: white;
     border: 5px solid var(--newSecondary);
@@ -133,12 +133,14 @@
     margin-top:10px
   }
   
-  @media (max-width: 1070px) {
+  @media screen and (max-width: 1070px) {
 
   
     .timelinecontent::after {
-      left: 31px;
+      left: 30px;
     }
+
+ 
   
   
     .timelinecontainer {
@@ -153,7 +155,7 @@
       left: 60px;
       border: medium solid white;
       border-width: 10px 10px 10px 0;
-      border-color: transparent var(--newPrimary) transparent transparent;
+      border-color: transparent var(--newbackground) transparent transparent;
     }
   
   

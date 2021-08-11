@@ -52,17 +52,10 @@
 .appcontent{
   width: 50%;
 }
-.apptitle{
+
+.appname{
   color: var(--newSecondary);
   font-family: var(--primaryFont);
-  text-transform: uppercase;
-  letter-spacing: 0.5rem;
-  font-size: 1rem;
-  font-weight: 500;
-}
-.appname{
-  color: var(--newText);
-  font-family: var(--secondaryFont);
   text-transform: uppercase;
   font-size: 2rem;
   letter-spacing: 0.2rem;
@@ -115,4 +108,30 @@
   height: 100%;
 
  
+}
+
+
+@media  screen and (max-width: 768px) {
+  .appcontainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   
+  }
+
+  .appcontent{
+      margin-top: 20px;
+      width: 100%;
+      order: 2;
+      text-align: justify;
+  }
+
+  .appImage{
+    height: 300px;
+      margin:0;
+      width: 100%;
+      order: 1;
+     
+      
+  }
 }

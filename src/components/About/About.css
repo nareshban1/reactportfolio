@@ -51,15 +51,39 @@
   }
 
   .about_image{
-      width: 50%;
+      width: 40%;
   }
 
   .myProfile{
       height: auto;
-      width: 60%;
+      width: 100%;
       float: right;
   }
 
 
+  @media  screen and (max-width: 768px) {
+    .about{
+        flex-direction: column;
+        align-items: center;
+     
+    }
+    .aboutme{
+      width: 100%;
+      order:2;
+      text-align: justify;
+    }
   
+    .about_image{
+      width: 80%;
+      order:1;
+  }
+
+  .myProfile{
+    height: auto;
+    width: 100%;
+}
+
+  
+  }
+
   /* About Page End*/

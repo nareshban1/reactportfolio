@@ -42,6 +42,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={500}
+                onClick={() => setShowMenu(!showMenu)}
               >
                 About
               </Link>
@@ -52,7 +53,8 @@ function Navbar() {
                 to="interest"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={600}
+                onClick={() => setShowMenu(!showMenu)}
               >
                 Skills
               </Link>
@@ -63,7 +65,8 @@ function Navbar() {
                 to="timeline"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={700}
+                onClick={() => setShowMenu(!showMenu)}
               >
                 Timeline
               </Link>
@@ -74,7 +77,8 @@ function Navbar() {
                 to="projects"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={800}
+                onClick={() => setShowMenu(!showMenu)}
               >
                 Projects
               </Link>
@@ -85,10 +89,21 @@ function Navbar() {
                 to="illustrations"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={900}
+                onClick={() => setShowMenu(!showMenu)}
               >
                 Illustrations
               </Link>
+              <Link
+              to="contacts"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="smallscreenbtn"
+              onClick={() => setShowMenu(!showMenu)}
+            >
+              <button className="button1">Lets talk</button>
+            </Link>
             </li>
           </ul>
           <div className={`${showMenu ? "btndiv activeb" : "btndiv"}`}>
@@ -96,7 +111,8 @@ function Navbar() {
               to="contacts"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
+              onClick={() => setShowMenu(!showMenu)}
             >
               <button className="button">Lets talk</button>
             </Link>

@@ -21,20 +21,16 @@
   .contactsend {
     font-family: var(--secondaryFont);
     color: var(--newSecondary);
+    font-size: 1.2em;
   }
 
   .conrow {
-    display: -ms-flexbox; 
     display: flex;
-    -ms-flex-wrap: wrap; 
-    flex-wrap: wrap;
     margin-top: 10px;
   }
   
   .concolumn {
-    -ms-flex: 50%; 
-    flex: 50%;
-    max-width: 50%;
+    width: 100%;
     transition: var(--transition);
   }
   
@@ -92,4 +88,15 @@
     color: white;
   }
   
+  @media  screen and (max-width: 768px) {
+    .conrow{
+        flex-direction: column;
+        align-items: center;
+     
+    }
   
+    .contactsend{
+        margin-top: 20px;
+    }
+  
+  }

@@ -24,6 +24,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+.body{
+  background-color: var(--newPrimary);
+}
+
 .container{
     width: min(1320px, 95%);
     margin:0 auto;

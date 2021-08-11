@@ -21,7 +21,7 @@
   margin: 20px 0px;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .skillcard {
@@ -80,4 +80,10 @@
 .xd {
   color: #f75eee;
 }
+
+@media  screen and (max-width: 768px) {
+
+}
+
+
 /* Skills page End*/
