@@ -20,11 +20,10 @@ const Home = () => {
             I love coding and it's thrilling to fix bugs or cry trying.
           </p>
           <Link
-            className="item-links"
             to="interest"
             spy={true}
             smooth={true}
-            duration={200}
+            duration={400}
           >
             <button className="abtbtn">My Skills</button>
           </Link>

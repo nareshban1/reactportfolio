@@ -53,7 +53,7 @@ function App() {
         </div>
       ) : (
         <div className="loadingpage">
-          <RingLoader color={"#FD4370"}  size={100}></RingLoader>
+          <RingLoader color={"#FD4370"} size={100}></RingLoader>
         </div>
       )}{" "}
     </>
