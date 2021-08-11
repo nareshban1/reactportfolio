@@ -1,8 +1,7 @@
 import "./Home.css";
 import { Link } from "react-scroll";
 import Particles from "react-particles-js";
-import Typist from 'react-typist';
-
+import Typed from 'react-typed';
 const Home = () => {
   return (
     <div className="intro">
@@ -10,10 +9,13 @@ const Home = () => {
         <div className="titleview">
           <p className="mtitle coloredtitle"> Front End Developer,</p>
 
-          <Typist><span className="mtitle">Occasional Gamer</span>
-          <Typist.Backspace count={16} delay={300} />
-          <span className="mtitle" >Backend Rookie</span>
-           </Typist>
+          <Typed
+            strings={["Occasional Gamer", "Backend Rookie","How you Doin'"]}
+            typeSpeed={40}
+            backSpeed={50}
+            loop
+            className="ttitle"
+          />
           <p className="stitle">
             I love coding and it's thrilling to fix bugs or cry trying.
           </p>

@@ -42,6 +42,13 @@
     font-size:clamp(3rem,3.2vw,3.5rem);
     color: var(--newText);
   }
+
+  .ttitle{
+    font-family: var(--primaryFont);
+    font-weight: 700;
+    font-size:clamp(2.5rem,3vw,3.2rem);
+    color: var(--newText);
+  }
   
   .coloredtitle{
     color:var(--newSecondary);

@@ -52,12 +52,13 @@
 
   @keyframes levitate {
     0%   {transform: translatey(0px);}
-    50%  {transform: translatey(-20px);}
+    50%  {transform: translatey(-30px);}
     100% {transform: translatey(0px);}
   }
 
   .about_image{
       width: 40%;
+      
       
   }
 
