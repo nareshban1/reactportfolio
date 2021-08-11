@@ -7,7 +7,7 @@ const Timeline = () => {
       <div className="container">
         <p className="timetitle">Timeline</p>
         <div className="timelinecontent">
-        <div className="timelinecontainer right">
+        <div className="timelinecontainer rightt">
           <div className="content">
             <p className="year">2021-Present</p>
             <p className="cert">Developer/UI Designer </p>
@@ -32,7 +32,7 @@ const Timeline = () => {
             </p>
           </div>
         </div>
-        <div className="timelinecontainer right">
+        <div className="timelinecontainer rightt">
           <div className="content">
             <p className="year">2017-2020</p>
             <p className="cert">
@@ -59,7 +59,7 @@ const Timeline = () => {
             </p>
           </div>
         </div>
-        <div className="timelinecontainer right">
+        <div className="timelinecontainer rightt">
           <div className="content">
             <p className="year">2014</p>
             <p className="cert">School Leaving Certificate (SLC)</p>

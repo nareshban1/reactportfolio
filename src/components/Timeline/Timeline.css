@@ -59,7 +59,7 @@
   }
   
   /* Place the container to the right */
-  .right {
+  .rightt {
     left: 50%;
     padding: 10px 10px 10px 40px;
   }
@@ -79,7 +79,7 @@
   }
   
   /* Add arrows to the right container (pointing left) */
-  /* .right::before {
+  .rightt::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -90,10 +90,10 @@
     border: medium solid var(--newbackground);
     border-width: 10px 10px 10px 0;
     border-color: transparent var(--newbackground) transparent transparent;
-  } */
+  }
   
   /* Fix the circle for containers on the right side */
-  .right::after {
+  .rightt::after {
     left: -16px;
   }
   
@@ -160,12 +160,12 @@
   
   
     .left::after,
-    .right::after {
+    .rightt::after {
       left: 15px;
     }
   
   
-    .right {
+    .rightt {
       left: 0%;
     }
   
