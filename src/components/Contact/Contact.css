@@ -1,102 +1,83 @@
-
 /*contact*/
 
-.contactspage{
-  padding:50px 0px;
+.contactspage {
+  padding: 50px 0px;
   background-color: var(--newbackground);
 }
-.contacts {
-    
-  }
-  .contact {
-    font-family: var(--primaryFont);
-    color: white;
-  }
-  
-  .contacttitle {
-    font-family: var(--secondaryFont);
-    color: white;
+
+.contacttitle {
+  font-family: var(--secondaryFont);
+  color: white;
+}
+
+.contactsend {
+  font-family: var(--secondaryFont);
+  color: var(--newSecondary);
+  font-size: 1.2em;
+}
+
+.conrow {
+  display: flex;
+  margin-top: 10px;
+}
+
+.concolumn {
+  width: 100%;
+ 
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.sendbtn {
+  font-family: var(--primaryFont);
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 8px;
+  transition: var(--transition);
+}
+.sendbtn:hover {
+  background-color: var(--newSecondary);
+  color: var(--newText);
+  border-color: var(--newSecondary);
+}
+
+.contact-form {
+  padding: 10px 0px;
+}
+
+.contactd {
+  padding: 10px 0px;
+  font-family: var(--primaryFont);
+  color: var(--newSecondary);
+}
+
+.contactdata {
+  font-family: var(--primaryFont);
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .conrow {
+    flex-direction: column;
   }
 
   .contactsend {
-    font-family: var(--secondaryFont);
-    color: var(--newSecondary);
-    font-size: 1.2em;
+    margin-top: 20px;
   }
-
-  .conrow {
-    display: flex;
-    margin-top: 10px;
-  }
-  
-  .concolumn {
-    width: 100%;
-    transition: var(--transition);
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  form label {
-    font-family: var(--secondaryFont);
-    color: var(--newText);
-  }
-  
-  textarea {
-    height: 150px;
-  }
-  
-  .sendbtn {
-    font-family: var(--primaryFont);
-    border: 2px solid white;
-    background-color: transparent;
-    padding: 10px 30px;
-    color: white;
-    border-radius: 8px;
-    transition: var(--transition);
-  }
-  .sendbtn:hover {
-    background-color: var(--newSecondary);
-    color: var(--newText);
-    border-color: var(--newSecondary);
-    
-  }
-  
-  .contact-form {
-    padding: 10px 0px;
-  }
-  
-  .contactd {
-    padding: 10px 0px;
-    font-family: var(--primaryFont);
-    color: var(--newSecondary);
-    
-  }
-  
-  .contactdata {
-    font-family: var(--primaryFont);
-    color: white;
-  }
-  
-  @media  screen and (max-width: 768px) {
-    .conrow{
-        flex-direction: column;
-        align-items: center;
-     
-    }
-  
-    .contactsend{
-        margin-top: 20px;
-    }
-  
-  }
+}

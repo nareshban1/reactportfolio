@@ -11,8 +11,8 @@ const Home = () => {
 
           <Typed
             strings={["Occasional Gamer", "Backend Rookie","How you Doin'"]}
-            typeSpeed={40}
-            backSpeed={50}
+            typeSpeed={60}
+            backSpeed={60}
             loop
             className="ttitle"
           />

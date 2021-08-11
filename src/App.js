@@ -11,9 +11,10 @@ import Designs from "./components/Designs/Designs";
 import Contact from "./components/Contact/Contact";
 
 
+
 function App() {
     return(
-      <>
+      <div classname="App">
       <div style={{height:"30px" ,backgroundColor:"#FD4370", color:"white" ,fontFamily:"Poppins" , textAlign:"center"}}>
         <p>This site is still under development.</p>
       </div>
@@ -29,7 +30,7 @@ function App() {
         <Contact/>
       </div>
       <Footer/>
-      </>
+      </div>
     )
 }
 

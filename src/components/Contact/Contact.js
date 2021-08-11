@@ -1,6 +1,6 @@
 import emailjs from "emailjs-com";
 import { useState } from "react";
-import "./Contact.css"
+import "./Contact.css";
 
 const Contact = () => {
   const [email, setEmail] = useState("");
@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <div className="contactspage" id="contacts">
-      <div className="contacts container">
+      <div className="container">
         <p className="projtitle">Let's Talk</p>
         <div className="conrow">
           <div className="concolumn">
@@ -39,12 +39,12 @@ const Contact = () => {
               You can contact me on the following details.
             </p>
             <p className="contactd">
-              Email:  
-              <span className="contactdata">  nareshban40@gmail.com</span>
+              Email:
+              <span className="contactdata"> nareshban40@gmail.com</span>
             </p>
             <p className="contactd">
-              Address:  
-              <span className="contactdata">  Samakhusi, Kathmandu </span>
+              Address:
+              <span className="contactdata"> Samakhusi, Kathmandu </span>
             </p>
           </div>
           <div className="concolumn">
