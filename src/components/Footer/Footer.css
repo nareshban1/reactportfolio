@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
   }
   .foottext {
     text-align: center;
@@ -12,7 +13,7 @@
     color: white;
     margin: 5px;
   }
-  .footer a{
+  .olddesign{
     text-align: center;
     font-family: var(--primaryFont);
     color: white;
@@ -20,7 +21,27 @@
     transition: var(--transition);
   }
 
-  .footer a:hover{
+  .olddesign:hover{
     letter-spacing: 0.2em;
+    color: var(--newSecondary);
+  }
+
+  .socialicons{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    width:100px;
+    color: white;
+    padding: 10px 0;
+  }
+
+  .socialicon{
+    color: white;
+    transition: 0.3s;
+    
+  }
+
+  .socialicon:hover{
+    transform: scale(1.2);
     color: var(--newSecondary);
   }

@@ -64,6 +64,7 @@
   .abtbtn {
     margin-top: 20px;
     font-family:  var(--secondaryFont);
+    font-size: 1em;
     border: 2px solid var(--newSecondary);
     background-color: var(--newSecondary);
     padding: 10px 50px;
