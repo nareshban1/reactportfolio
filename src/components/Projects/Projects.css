@@ -126,6 +126,10 @@
       text-align: justify;
   }
 
+  .appname{
+    text-align: left;
+  }
+
   .appImage{
     height: 250px;
       margin:0;
@@ -133,5 +137,9 @@
       order: 1;
      
       
+  }
+
+  .appLink{
+    float: right;
   }
 }
