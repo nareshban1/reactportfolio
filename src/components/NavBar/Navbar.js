@@ -83,7 +83,7 @@ function Navbar() {
                 Projects
               </Link>
               </li>
-              <li className="navitems">
+              {/* <li className="navitems">
               <Link
                 className="item-links"
                 to="illustrations"
@@ -104,7 +104,7 @@ function Navbar() {
             >
               <button className="button1">Lets talk</button>
             </Link>
-            </li>
+            </li> */}
           </ul>
           <div className={`${showMenu ? "btndiv activeb" : "btndiv"}`}>
             <Link
