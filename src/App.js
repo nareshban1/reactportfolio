@@ -10,24 +10,21 @@ import RecentWork from "./components/RecentWork/RecentWork";
 import Designs from "./components/Designs/Designs";
 import Contact from "./components/Contact/Contact";
 import React, { useState, useEffect } from "react";
-import { css } from "@emotion/react";
-import RingLoader from "react-spinners/RingLoader";
-import DotLoader from "react-spinners/DotLoader";
-
+import { SemipolarSpinner } from 'react-epic-spinners'
 
 
 function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 6000);
+    setTimeout(() => setLoading(false),3000);
   }, []);
 
   return (
     <>
       {!loading ? (
         <div classname="App">
-          <div
+          {/* <div
             style={{
               height: "30px",
               backgroundColor: "#FD4370",
@@ -36,8 +33,8 @@ function App() {
               textAlign: "center",
             }}
           >
-            <p>This site is still under development.</p>
-          </div>
+            <p>Still in Development</p>
+          </div> */}
           <Navbar />
           <div className="main_view">
             <Home />
@@ -46,14 +43,13 @@ function App() {
             <About />
             <Timeline />
             <Projects />
-            <Designs />
             <Contact />
           </div>
           <Footer />
         </div>
       ) : (
         <div className="loadingpage">
-          <RingLoader color={"#FD4370"} size={100}></RingLoader>
+          <SemipolarSpinner color="#FD4370"></SemipolarSpinner>
         </div>
       )}{" "}
     </>

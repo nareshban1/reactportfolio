@@ -37,7 +37,7 @@ const Home = () => {
           params={{
             particles: {
               number: {
-                value: 60,
+                value: 25,
               },
               size: {
                 value: 2,

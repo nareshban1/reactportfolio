@@ -1,4 +1,6 @@
 import "./Projects.css";
+import {Reveal} from 'react-reveal'
+
 
 const Projects = () => {
   return (
@@ -11,6 +13,28 @@ const Projects = () => {
             Here are some of the apps I have developed.
           </p>
           <div className="applist">
+
+          <Reveal left>
+          <div className="appcontainer">
+              <div className="appImage ">
+                <img
+                  src={process.env.PUBLIC_URL + "/weatherguru.png"}
+                  alt=""
+                  className="appimageview mobile"
+                />
+              </div>
+              <div className="appcontent">
+                <p className="appname">Weather.Guru</p>
+                <p className="appdesc">
+                  A weather app to check current weather with hourly and daily forecat of any location. Used open weather api.
+                </p>
+                <a href="https://weatherguru.netlify.app" rel="noreferrer" target="_blank">
+                  <button className="appLink">Go to App</button>
+                </a>
+              </div>
+              </div>
+              </Reveal>
+              <Reveal right>
             <div className="appcontainer">
               <div className="appcontent">
                 <p className="appname">Social Clone</p>
@@ -32,6 +56,8 @@ const Projects = () => {
                 />
               </div>
             </div>
+           </Reveal>
+           <Reveal left>
             <div className="appcontainer">
               <div className="appImage ">
                 <img
@@ -51,6 +77,8 @@ const Projects = () => {
                 </a>
               </div>
             </div>
+            </Reveal>
+            <Reveal right>
             <div className="appcontainer">
               <div className="appcontent">
                 <p className="appname">CSTC Software Solutions</p>
@@ -69,6 +97,8 @@ const Projects = () => {
                 />
               </div>
             </div>
+            </Reveal>
+            <Reveal left>
             <div className="appcontainer">
               <div className="appImage ">
                 <img
@@ -87,6 +117,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
+            </Reveal>
           </div>
         </div>
       </div>

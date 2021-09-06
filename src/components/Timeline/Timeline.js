@@ -1,5 +1,5 @@
 import"./Timeline.css"
-
+import { Reveal,Fade } from "react-reveal";
 const Timeline = () => {
   return (
     <div className="timeline">
@@ -7,7 +7,9 @@ const Timeline = () => {
       <div className="container">
         <p className="timetitle">Timeline</p>
         <div className="timelinecontent">
+       
         <div className="timelinecontainer rightt">
+        <Reveal bottom>
           <div className="content">
             <p className="year">2021-Present</p>
             <p className="cert">Developer/UI Designer </p>
@@ -18,8 +20,12 @@ const Timeline = () => {
               this pandemic. And its awesome.
             </p>
           </div>
+          </Reveal>
         </div>
+     
+       
         <div className="timelinecontainer left">
+        <Reveal bottom>
           <div className="content cleft">
             <p className="year">2020-Present</p>
             <p className="cert">Team Captain</p>
@@ -31,8 +37,12 @@ const Timeline = () => {
               leads.
             </p>
           </div>
+          </Reveal>
         </div>
+       
+      
         <div className="timelinecontainer rightt">
+        <Reveal bottom>
           <div className="content">
             <p className="year">2017-2020</p>
             <p className="cert">
@@ -46,8 +56,12 @@ const Timeline = () => {
               various interesting courses and projects.
             </p>
           </div>
+          </Reveal>
         </div>
+        
+ 
         <div className="timelinecontainer left">
+        <Reveal bottom>
           <div className="content cleft">
             <p className="year">2014-2016</p>
             <p className="cert">Higher secondary Education Board (+2 HSEB)</p>
@@ -58,8 +72,13 @@ const Timeline = () => {
               can pursue a career in IT in the future.
             </p>
           </div>
+          </Reveal>
         </div>
+       
+        
+        
         <div className="timelinecontainer rightt">
+        <Reveal bottom>
           <div className="content">
             <p className="year">2014</p>
             <p className="cert">School Leaving Certificate (SLC)</p>
@@ -71,7 +90,9 @@ const Timeline = () => {
               education.{" "}
             </p>
           </div>
+          </Reveal>
         </div>
+        
         </div>
       </div>
     </div>
