@@ -7,7 +7,6 @@ import Skills from "./components/Skills/Skills";
 import Timeline from "./components/Timeline/Timeline";
 import Projects from "./components/Projects/Projects";
 import RecentWork from "./components/RecentWork/RecentWork";
-import Designs from "./components/Designs/Designs";
 import Contact from "./components/Contact/Contact";
 import React, { useState, useEffect } from "react";
 import { SemipolarSpinner } from 'react-epic-spinners'
@@ -17,7 +16,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false),3000);
+    setTimeout(() => setLoading(false),2000);
   }, []);
 
   return (
