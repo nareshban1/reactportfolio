@@ -51,7 +51,7 @@ const Projects = () => {
                   <p className="appname">Weather.Guru</p>
                   <p className="appdesc">
                     A weather app to check current weather with hourly and daily
-                    forecat of any location. Used open weather api.
+                    forecast of any location. Used open weather api.
                   </p>
                   <a
                     href="https://weatherguru.netlify.app"
