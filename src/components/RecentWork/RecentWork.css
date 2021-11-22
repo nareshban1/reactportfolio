@@ -62,7 +62,6 @@
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 2px 2px 20px #303030;
-  object-fit: cover;
 }
 
 .appimage {
@@ -70,6 +69,7 @@
   height: 100%;
   z-index: 1;
   right: 0;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
@@ -91,6 +91,5 @@
     width: 100%;
     order: 1;
     height: 250px;
-    object-fit: cover;
   }
 }
