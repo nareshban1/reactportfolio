@@ -81,9 +81,10 @@
   color: #f75eee;
 }
 
-@media  screen and (max-width: 768px) {
-
+@media screen and (max-width: 475px) {
+  .skilllist {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-
 
 /* Skills page End*/
