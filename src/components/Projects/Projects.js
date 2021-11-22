@@ -12,6 +12,30 @@ const Projects = () => {
             Here are some of the apps I have developed.
           </p>
           <div className="applist">
+            <Reveal left>
+              <div className="appcontainer">
+                <div className="appImage ">
+                  <img
+                    src={process.env.PUBLIC_URL + "/saurya.png"}
+                    alt=""
+                    className="appimageview mobile"
+                  />
+                </div>
+                <div className="appcontent">
+                  <p className="appname">Saurya Airlines</p>
+                  <p className="appdesc">
+                    Website for Saurya Airlines for their customers.
+                  </p>
+                  <a
+                    href="https://smart-holidays.org"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <button className="appLink">Go to App</button>
+                  </a>
+                </div>
+              </div>
+            </Reveal>
             <Reveal right>
               <div className="appcontainer">
                 <div className="appcontent">
