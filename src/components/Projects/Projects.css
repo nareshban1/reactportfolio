@@ -1,59 +1,53 @@
 /* Projects section*/
 
-.projects{
-    background-color: var(--newbackground);
-    padding: 50px 0px;
+.projects {
+  background-color: var(--newbackground);
+  padding: 50px 0px;
 }
 
+.projtitle {
+  font-family: var(--primaryFont);
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--newSecondary);
+}
 
-.projtitle{
-    font-family: var(--primaryFont);
-    font-weight: 700;
-    font-size: 2.5rem;
-    color: var(--newSecondary);
-  }
+.pcontent {
+  padding: 20px 0px;
+  width: 100%;
+  height: 100%;
+}
 
-  .pcontent {
-    padding: 20px 0px;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .active-content {
-    display: block;
-  }
-  
+.active-content {
+  display: block;
+}
 
-  .skilltitle{
-    font-family: var(--secondaryFont);
-    font-size: 1rem;
-    margin: 0px 0px 20px 0px;
-  }
+.skilltitle {
+  font-family: var(--secondaryFont);
+  font-size: 1rem;
+  margin: 0px 0px 20px 0px;
+}
 
-  .applist{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      
-  }
+.applist {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
-
-
-.appcontainer{
-  padding:15px;
+.appcontainer {
+  padding: 15px;
   border-radius: 8px;
   background-color: var(--newPrimary);
   display: flex;
   align-items: center;
   margin: 10px 0px;
   justify-content: space-between;
-
 }
-.appcontent{
+.appcontent {
   width: 50%;
 }
 
-.appname{
+.appname {
   color: var(--newSecondary);
   font-family: var(--primaryFont);
   text-transform: uppercase;
@@ -61,7 +55,7 @@
   letter-spacing: 0.2rem;
   font-weight: 700;
 }
-.appdesc{
+.appdesc {
   margin-top: 30px;
   color: var(--newText);
   font-family: var(--secondaryFont);
@@ -70,14 +64,14 @@
   font-weight: 400;
 }
 
-.appLink{
+.appLink {
   margin-top: 30px;
   padding: 10px 30px;
   background-color: transparent;
   border: 2px solid white;
   border-radius: 10px;
   font-size: 1rem;
-  font-family:  var(--secondaryFont);
+  font-family: var(--secondaryFont);
   color: white;
   transition: all 0.3s ease 0s;
 }
@@ -86,60 +80,50 @@
   background-color: var(--newSecondary);
   color: var(--newText);
   border-color: var(--newSecondary);
-  
 }
 
-
-.appImage{
+.appImage {
   width: 47%;
   position: relative;
   height: 400px;
   box-sizing: border-box;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 1px 1px 10px  #303030 ;
-  object-fit: fill;
+  box-shadow: 1px 1px 10px #303030;
+  object-fit: cover;
 }
 
-
-
-.appimageview{
+.appimageview {
   width: 100%;
   height: 100%;
-
- 
 }
 
-
-@media  screen and (max-width: 768px) {
-  .appcontainer{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   
+@media screen and (max-width: 768px) {
+  .appcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .appcontent{
-      margin-top: 20px;
-      width: 100%;
-      order: 2;
-      text-align: justify;
+  .appcontent {
+    margin-top: 20px;
+    width: 100%;
+    order: 2;
+    text-align: justify;
   }
 
-  .appname{
+  .appname {
     text-align: left;
   }
 
-  .appImage{
+  .appImage {
     height: 250px;
-      margin:0;
-      width: 100%;
-      order: 1;
-     
-      
+    margin: 0;
+    width: 100%;
+    order: 1;
   }
 
-  .appLink{
+  .appLink {
     float: right;
   }
 }
