@@ -10,13 +10,15 @@ import RecentWork from "./components/RecentWork/RecentWork";
 import Contact from "./components/Contact/Contact";
 import React, { useState, useEffect } from "react";
 import { SemipolarSpinner } from 'react-epic-spinners'
+import ReactGA from 'react-ga';
+ReactGA.initialize(`${process.env.REACT_APP_UA_ID}`); // add your tracking id here.
 
 
 function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false),2000);
+    setTimeout(() => setLoading(false), 2000);
   }, []);
 
   return (
