@@ -26,17 +26,6 @@ function App() {
     <>
       {!loading ? (
         <div classname="App">
-          {/* <div
-            style={{
-              height: "30px",
-              backgroundColor: "#FD4370",
-              color: "white",
-              fontFamily: "Poppins",
-              textAlign: "center",
-            }}
-          >
-            <p>Still in Development</p>
-          </div> */}
           <Navbar />
           <div className="main_view">
             <Home />
