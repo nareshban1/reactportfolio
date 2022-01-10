@@ -12,6 +12,30 @@ const Projects = () => {
             Here are some of the apps I have developed.
           </p>
           <div className="applist">
+            <Reveal right>
+              <div className="appcontainer">
+                <div className="appcontent">
+                  <p className="appname">Money Tracker</p>
+                  <p className="appdesc">
+                    A income and expense tracker app using Firebase and react.
+                  </p>
+                  <a
+                    href="https://yourmoneytracker.netlify.app"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <button className="appLink">Go to App</button>
+                  </a>
+                </div>
+                <div className="appImage ">
+                  <img
+                    src={process.env.PUBLIC_URL + "/moneytrack.png"}
+                    alt=""
+                    className="appimageview mobile"
+                  />
+                </div>
+              </div>
+            </Reveal>
             <Reveal left>
               <div className="appcontainer">
                 <div className="appImage ">
