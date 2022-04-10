@@ -15,21 +15,21 @@ const Projects = () => {
             <Reveal right>
               <div className="appcontainer">
                 <div className="appcontent">
-                  <p className="appname">Money Tracker</p>
+                  <p className="appname">Universal Travels And Tours Website</p>
                   <p className="appdesc">
-                    A income and expense tracker app using Firebase and react.
+                    Developed a website for the Universal Travels and Tours From Designing, Frontend and Backend. Used React For Frontend and Django as Backend.
                   </p>
                   <a
-                    href="https://yourmoneytracker.netlify.app"
+                    href="https://utt.com.np"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <button className="appLink">Go to App</button>
+                    <button className="appLink">Go to Site</button>
                   </a>
                 </div>
                 <div className="appImage ">
                   <img
-                    src={process.env.PUBLIC_URL + "/moneytrack.png"}
+                    src={process.env.PUBLIC_URL + "/utt.png"}
                     alt=""
                     className="appimageview mobile"
                   />
@@ -40,24 +40,25 @@ const Projects = () => {
               <div className="appcontainer">
                 <div className="appImage ">
                   <img
-                    src={process.env.PUBLIC_URL + "/saurya.png"}
+                    src={process.env.PUBLIC_URL + "/moneytrack.png"}
                     alt=""
                     className="appimageview mobile"
                   />
                 </div>
                 <div className="appcontent">
-                  <p className="appname">Saurya Airlines</p>
+                  <p className="appname">Money Tracker</p>
                   <p className="appdesc">
-                    Website for Saurya Airlines for their customers.
+                    A income and expense tracker app using Firebase and react.
                   </p>
                   <a
-                    href="https://smart-holidays.org"
+                    href="https://yourmoneytracker.netlify.app"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <button className="appLink">Go to App</button>
+                    <button className="appLink">Go to Site</button>
                   </a>
                 </div>
+
               </div>
             </Reveal>
             <Reveal right>
@@ -73,7 +74,7 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <button className="appLink">Go to App</button>
+                    <button className="appLink">Go to Site</button>
                   </a>
                 </div>
                 <div className="appImage ">
@@ -106,7 +107,7 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <button className="appLink">Go to App</button>
+                    <button className="appLink">Go to Site</button>
                   </a>
                 </div>
               </div>
@@ -126,7 +127,7 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <button className="appLink">Go to App</button>
+                    <button className="appLink">Go to Site</button>
                   </a>
                 </div>
                 <div className="appImage ">
@@ -158,7 +159,7 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <button className="appLink">Go to App</button>
+                    <button className="appLink">Go to Site</button>
                   </a>
                 </div>
               </div>
